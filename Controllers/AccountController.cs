@@ -49,11 +49,14 @@ namespace WebProject.Controllers
         public async Task<IActionResult> GetAvatar(string id)
         {
             var account = await _accountRepository.GetAccountByIdAsync(id);
+            if (account == null)
+                return NotFound("Account not found.");
 
-            if (account == null /*|| account.AvatarImage == null*/ || account.AvatarImage.Length == 0)
+            else if (account.AvatarImage == null || account.AvatarImage.Length == 0)
             {
                 return NotFound("Avatar not found.");
             }
+                
             string contentType = "image/png";
 
             return File(account.AvatarImage, contentType);
@@ -126,10 +129,9 @@ namespace WebProject.Controllers
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }
-
-       
-        [Authorize]
+            
         [HttpPut]
+        [Authorize]
         public async Task<IActionResult> UpdateDatas([FromBody] UpdateAccountDTO accountDTO)
         {
             try
@@ -141,21 +143,21 @@ namespace WebProject.Controllers
                     return Unauthorized(new { Message = "User is not authenticated." });
                 }
 
-                // Отримуємо акаунт за допомогою id з токену
+                // Отримує акаунт за допомогою id з токену
                 var account = await _accountService.GetAccount(userId);
                 if (account == null)
                     return NotFound(new { Message = "Account not found." });
 
-                // Перевірка: чи інше ім’я або email не зайняті кимось іншим
+                // Перевірка чи інше ім’я або email не зайняті кимось іншим
                 var existingAccount = await _accountRepository.GetAccountByNameAsync(accountDTO.Name);
                 if (existingAccount != null)
                     return BadRequest(new { Message = "Another account already uses this email or name." });
 
-                // Генеруємо новий salt та хеш пароля
+                // Генерує новий salt та хеш пароля
                 var salt = _passwordService.GenerateSalt();
                 string hashedPassword = _passwordService.HashPasswordPBKDF2(accountDTO.Password, salt);
 
-                if (account.Name.Length > 16)
+                if (accountDTO.Name.Length > 16)
                 {
                     return BadRequest(new { Message = "Nick-name cannot contain more than 16 characters" });
                 }

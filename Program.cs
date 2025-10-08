@@ -32,7 +32,6 @@ builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("Smtp
 builder.Services.Configure<AppConfig>(builder.Configuration.GetSection("AppConfig"));
 builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("Jwt"));
 
-// Додаємо сервісні методи
 builder.Services.AddCustomServices();
 builder.Services.AddJwtAuthentication(builder.Configuration);
 builder.Services.AddTransient(typeof(Lazy<>), typeof(LazyService<>));
@@ -53,3 +52,4 @@ app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 app.Run();
+public partial class Program { }

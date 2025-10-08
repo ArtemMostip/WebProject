@@ -162,43 +162,7 @@ namespace WebProject.Services
             return result;
         }
 
-        //Старий код: 
-        /*public async Task<List<MusicArtistDTO>> GetMusicsArtistByTitle(string title)
- {
-     var musics = await _musicRepository.GetAllMusicByTitleAsync(title);
-     var musicOutList = new List<MusicArtistDTO>();
-
-     foreach (var music in musics)
-     {
-         Artist? artist = null;
-         Album? album = null;
-
-         if (!string.IsNullOrEmpty(music.ArtistId))
-         {
-             artist = await _artistService.GetArtist(music.ArtistId);
-         }
-
-         if (!string.IsNullOrEmpty(music.AlbumId))
-         {
-             album = await _albumService.GetAlbumAsync1(music.AlbumId);
-         }
-
-         musicOutList.Add(new MusicArtistDTO
-         {
-             Id = music.Id,
-             Title = music.Title,
-             Artist = artist,
-             Album = album,
-             Year = music.Year,
-             Genre = music.Genre,
-             CoverUrl = music.CoverUrl,
-             FileUrl = music.FileUrl,
-             DateCreation = music.DateCreation
-         });
-     }
-
-     return musicOutList;
- }*/
+       
         public async Task<MusicArtistDTO> GetMusicArtistByIdAsync(string id)
         {
             var music = await _musicRepository.GetMusicByIdAsync(id);

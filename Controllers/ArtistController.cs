@@ -264,19 +264,19 @@ namespace WebProject.Controllers
             return Ok(new { Message = $"Artist with ID '{id}' was successfully deleted." });
         }
 
-        //[Authorize(Roles = "admin")]
-        [HttpDelete("by-Playlist/{id}")]
-        public async Task<IActionResult> DeleteMusicByArtistIdFromPlaylistAsync(string id)
-        {
-            var DeletedRow = await _artistService.DeleteMusicByArtistIdFromPlaylistAsync(id);
+        ////[Authorize(Roles = "admin")]
+        //[HttpDelete("by-Playlist/{id}")]
+        //public async Task<IActionResult> DeleteMusicByArtistIdFromPlaylistAsync(string id)
+        //{
+        //    var DeletedRow = await _artistService.DeleteMusicByArtistIdFromPlaylistAsync(id);
 
-            if (!DeletedRow)
-            {
-                return NotFound(new { Message = $"Artist with ID '{id}' not found." });
-            }
+        //    if (!DeletedRow)
+        //    {
+        //        return NotFound(new { Message = $"Artist with ID '{id}' not found." });
+        //    }
 
-            return Ok(new { Message = $"Artist with ID '{id}' was successfully deleted." });
-        }
+        //    return Ok(new { Message = $"Artist with ID '{id}' was successfully deleted." });
+        //}
 
 
 

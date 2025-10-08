@@ -1,31 +1,44 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+	
+	<PropertyGroup>
+		<PreserveCompilationContext>true</PreserveCompilationContext>
+	</PropertyGroup>
+	
+  <ItemGroup>
+    <Compile Remove="wwwroot\wwwroot\**" />
+    <Content Remove="wwwroot\wwwroot\**" />
+    <EmbeddedResource Remove="wwwroot\wwwroot\**" />
+    <None Remove="wwwroot\wwwroot\**" />
+  </ItemGroup>
 
   <ItemGroup>
     <Compile Remove="DTO%27s\Class.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Remove="wwwroot\MUSICAPI\Covers\Deftones gif from site.gif" />
-    <Content Remove="wwwroot\MUSICAPI\Covers\Deftones gif from site.gif.mp4" />
-    <Content Remove="wwwroot\MUSICAPI\Covers\photo_2025-04-29_12-15-10.jpg" />
+    <Content Remove="wwwroot\MUSICAPI\Musics\Deftones\Deftones - Royal.mp3" />
   </ItemGroup>
 
   <ItemGroup>
+    <AdditionalFiles Include="wwwroot\MUSICAPI\Musics\Deftones\Deftones - Royal.mp3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="coverlet.msbuild" Version="6.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.34.0" />
     <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.3.0" />
     <PackageReference Include="MongoDB.Driver" Version="3.3.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.9.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="wwwroot\MUSICAPI\Musics\Deftones\Deftones - One Weak.mp3" />
   </ItemGroup>
 
   <ItemGroup>
@@ -38,13 +51,7 @@
     <Content Update="wwwroot\MUSICAPI\Covers\Poor_Man's_Poison\Poor Mans Poison - Hell's Comin' with Me.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Update="wwwroot\MUSICAPI\Musics\Deftones\Deftones - Royal.mp3">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Update="wwwroot\MUSICAPI\Musics\Deftones\Deftones_Album\Deftones_When_Girls_Telephone_Boys.mp3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Update="wwwroot\MUSICAPI\Musics\Muse\Drones\Muse_The_Globalist.mp3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
