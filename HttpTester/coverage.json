@@ -1,0 +1,6115 @@
+{
+  "WebProject.dll": {
+    "D:\\MainWebProject\\Controllers\\ImageController.cs": {
+      "ImageController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult ImageController::GetImage(System.String)": {
+          "Lines": {
+            "9": 0,
+            "11": 0,
+            "14": 0,
+            "16": 0,
+            "18": 0,
+            "19": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": [
+            {
+              "Line": 18,
+              "Offset": 50,
+              "EndOffset": 52,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 50,
+              "EndOffset": 67,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.String ImageController::GetContentType(System.String)": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0
+          },
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 41,
+              "EndOffset": 43,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 54,
+              "EndOffset": 56,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 67,
+              "EndOffset": 69,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 28,
+              "EndOffset": 84,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 41,
+              "EndOffset": 84,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 54,
+              "EndOffset": 92,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 67,
+              "EndOffset": 100,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 80,
+              "EndOffset": 108,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 80,
+              "EndOffset": 116,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\MainWebProject\\Program.cs": {
+      "Program": {
+        "System.Void Program::<Main>$(System.String[])": {
+          "Lines": {
+            "14": 3,
+            "16": 3,
+            "17": 3,
+            "18": 3,
+            "19": 3,
+            "20": 3,
+            "21": 3,
+            "22": 3,
+            "23": 3,
+            "24": 6,
+            "25": 6,
+            "26": 3,
+            "27": 3,
+            "28": 3,
+            "29": 6,
+            "31": 3,
+            "32": 3,
+            "33": 3,
+            "35": 3,
+            "36": 3,
+            "37": 3,
+            "38": 3,
+            "40": 3,
+            "42": 3,
+            "43": 3,
+            "44": 3,
+            "45": 3,
+            "46": 3,
+            "47": 3,
+            "48": 3,
+            "49": 3,
+            "50": 3,
+            "51": 3,
+            "52": 3,
+            "53": 3,
+            "54": 3
+          },
+          "Branches": [
+            {
+              "Line": 42,
+              "Offset": 283,
+              "EndOffset": 285,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 42,
+              "Offset": 283,
+              "EndOffset": 303,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            }
+          ]
+        }
+      }
+    },
+    "D:\\MainWebProject\\Services\\AccountService.cs": {
+      "WebProject.Services.AccountService": {
+        "System.Void WebProject.Services.AccountService::.ctor(WebProject.Repositories.IAccountRepository,WebProject.Services.IEmailService,WebProject.Services.IPasswordService)": {
+          "Lines": {
+            "16": 11,
+            "17": 11,
+            "18": 11,
+            "19": 11,
+            "20": 11,
+            "22": 11
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Services.AccountService/<>c": {
+        "System.String WebProject.Services.AccountService/<>c::<GetAllEmailsAsync>b__5_0(WebProject.Entities.Account)": {
+          "Lines": {
+            "33": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Services.AccountService/<CreateAccountAsync>d__6": {
+        "System.Void WebProject.Services.AccountService/<CreateAccountAsync>d__6::MoveNext()": {
+          "Lines": {
+            "37": 2,
+            "38": 2,
+            "39": 2,
+            "41": 2,
+            "42": 2,
+            "43": 1,
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "47": 1,
+            "49": 2,
+            "50": 2,
+            "51": 2,
+            "52": 2,
+            "53": 2,
+            "54": 2,
+            "55": 2,
+            "56": 2,
+            "57": 2,
+            "58": 2,
+            "60": 2,
+            "61": 2,
+            "62": 1,
+            "63": 1,
+            "67": 1,
+            "68": 1,
+            "69": 1,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "75": 1,
+            "76": 1
+          },
+          "Branches": [
+            {
+              "Line": 42,
+              "Offset": 122,
+              "EndOffset": 124,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 42,
+              "Offset": 122,
+              "EndOffset": 146,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 42,
+              "Offset": 149,
+              "EndOffset": 154,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 42,
+              "Offset": 149,
+              "EndOffset": 349,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 61,
+              "Offset": 635,
+              "EndOffset": 637,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 61,
+              "Offset": 635,
+              "EndOffset": 649,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "WebProject.Services.AccountService/<GetAccount>d__4": {
+        "System.Void WebProject.Services.AccountService/<GetAccount>d__4::MoveNext()": {
+          "Lines": {
+            "25": 4,
+            "26": 4,
+            "27": 3,
+            "28": 3
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Services.AccountService/<GetAllEmailsAsync>d__5": {
+        "System.Void WebProject.Services.AccountService/<GetAllEmailsAsync>d__5::MoveNext()": {
+          "Lines": {
+            "31": 0,
+            "32": 0,
+            "34": 0,
+            "35": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Services.AccountService/<LoginAsync>d__9": {
+        "System.Void WebProject.Services.AccountService/<LoginAsync>d__9::MoveNext()": {
+          "Lines": {
+            "104": 3,
+            "105": 3,
+            "106": 3,
+            "107": 1,
+            "108": 1,
+            "111": 2,
+            "112": 0,
+            "113": 0,
+            "116": 2,
+            "117": 0,
+            "118": 0,
+            "121": 2,
+            "122": 2
+          },
+          "Branches": [
+            {
+              "Line": 106,
+              "Offset": 180,
+              "EndOffset": 182,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 106,
+              "Offset": 180,
+              "EndOffset": 194,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 111,
+              "Offset": 221,
+              "EndOffset": 223,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 111,
+              "Offset": 221,
+              "EndOffset": 235,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 116,
+              "Offset": 280,
+              "EndOffset": 282,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 116,
+              "Offset": 280,
+              "EndOffset": 294,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "WebProject.Services.AccountService/<SendVerificationEmailAsync>d__8": {
+        "System.Void WebProject.Services.AccountService/<SendVerificationEmailAsync>d__8::MoveNext()": {
+          "Lines": {
+            "89": 2,
+            "90": 2,
+            "91": 2,
+            "93": 2,
+            "94": 2,
+            "95": 2,
+            "96": 2,
+            "97": 2,
+            "98": 2,
+            "100": 2,
+            "101": 2
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Services.AccountService/<ValidateAccountAsync>d__10": {
+        "System.Void WebProject.Services.AccountService/<ValidateAccountAsync>d__10::MoveNext()": {
+          "Lines": {
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "130": 0,
+            "132": 0
+          },
+          "Branches": [
+            {
+              "Line": 127,
+              "Offset": 164,
+              "EndOffset": 166,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 127,
+              "Offset": 164,
+              "EndOffset": 170,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "WebProject.Services.AccountService/<VerifyEmailAsync>d__7": {
+        "System.Void WebProject.Services.AccountService/<VerifyEmailAsync>d__7::MoveNext()": {
+          "Lines": {
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0
+          },
+          "Branches": [
+            {
+              "Line": 81,
+              "Offset": 175,
+              "EndOffset": 177,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 81,
+              "Offset": 175,
+              "EndOffset": 184,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\MainWebProject\\Services\\AlbumService.cs": {
+      "WebProject.Services.AlbumService": {
+        "System.Void WebProject.Services.AlbumService::.ctor(WebProject.Repositories.IAlbumRepository,WebProject.Services.IArtistService,WebProject.Services.IIMusicService)": {
+          "Lines": {
+            "13": 26,
+            "14": 26,
+            "15": 26,
+            "16": 26,
+            "17": 26,
+            "19": 26
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Services.AlbumService/<CreateAlbumAsync>d__5": {
+        "System.Void WebProject.Services.AlbumService/<CreateAlbumAsync>d__5::MoveNext()": {
+          "Lines": {
+            "55": 1,
+            "57": 1,
+            "58": 1,
+            "59": 1,
+            "60": 1,
+            "61": 1,
+            "62": 1,
+            "63": 1,
+            "64": 1,
+            "65": 1,
+            "66": 1,
+            "67": 1
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Services.AlbumService/<Get10RandomAlbumsWithArtistAsync>d__4": {
+        "System.Void WebProject.Services.AlbumService/<Get10RandomAlbumsWithArtistAsync>d__4::MoveNext()": {
+          "Lines": {
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "28": 23,
+            "29": 10,
+            "30": 10,
+            "32": 10,
+            "33": 10,
+            "34": 10,
+            "35": 10,
+            "37": 10,
+            "38": 10,
+            "39": 10,
+            "40": 10,
+            "41": 10,
+            "42": 10,
+            "43": 10,
+            "44": 10,
+            "45": 10,
+            "47": 10,
+            "48": 10,
+            "50": 1,
+            "51": 1
+          },
+          "Branches": [
+            {
+              "Line": 28,
+              "Offset": 566,
+              "EndOffset": 202,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 10
+            },
+            {
+              "Line": 32,
+              "Offset": 250,
+              "EndOffset": 255,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 10
+            },
+            {
+              "Line": 32,
+              "Offset": 250,
+              "EndOffset": 401,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 10
+            },
+            {
+              "Line": 28,
+              "Offset": 566,
+              "EndOffset": 571,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "WebProject.Services.AlbumService/<GetAlbumAsync1>d__7": {
+        "System.Void WebProject.Services.AlbumService/<GetAlbumAsync1>d__7::MoveNext()": {
+          "Lines": {
+            "113": 33,
+            "114": 33,
+            "115": 33
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Services.AlbumService/<GetAlbumAsync>d__6": {
+        "System.Void WebProject.Services.AlbumService/<GetAlbumAsync>d__6::MoveNext()": {
+          "Lines": {
+            "72": 2,
+            "74": 2,
+            "75": 2,
+            "76": 1,
+            "77": 1,
+            "80": 1,
+            "81": 1,
+            "82": 1,
+            "83": 5,
+            "84": 1,
+            "85": 1,
+            "86": 1,
+            "87": 1,
+            "88": 1,
+            "89": 1,
+            "90": 1,
+            "91": 1,
+            "95": 1,
+            "96": 1,
+            "97": 1,
+            "98": 1,
+            "99": 1,
+            "101": 1,
+            "102": 1,
+            "103": 1,
+            "104": 1,
+            "105": 1,
+            "106": 1,
+            "107": 1,
+            "108": 1,
+            "110": 1,
+            "111": 2
+          },
+          "Branches": [
+            {
+              "Line": 75,
+              "Offset": 189,
+              "EndOffset": 191,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 75,
+              "Offset": 189,
+              "EndOffset": 199,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 81,
+              "Offset": 221,
+              "EndOffset": 223,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 81,
+              "Offset": 221,
+              "EndOffset": 241,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 81,
+              "Offset": 246,
+              "EndOffset": 251,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 83,
+              "Offset": 507,
+              "EndOffset": 289,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 1
+            },
+            {
+              "Line": 86,
+              "Offset": 459,
+              "EndOffset": 461,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 86,
+              "Offset": 459,
+              "EndOffset": 481,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            },
+            {
+              "Line": 83,
+              "Offset": 507,
+              "EndOffset": 512,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 1
+            },
+            {
+              "Line": 81,
+              "Offset": 246,
+              "EndOffset": 550,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 96,
+              "Offset": 580,
+              "EndOffset": 585,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 1
+            },
+            {
+              "Line": 96,
+              "Offset": 580,
+              "EndOffset": 731,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "WebProject.Services.AlbumService/<InsertMusicIntoAlbumAsync>d__8": {
+        "System.Void WebProject.Services.AlbumService/<InsertMusicIntoAlbumAsync>d__8::MoveNext()": {
+          "Lines": {
+            "117": 0,
+            "118": 0,
+            "119": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\Services\\ArtistService.cs": {
+      "WebProject.Services.ArtistService": {
+        "System.Void WebProject.Services.ArtistService::.ctor(WebProject.Repositories.IArtistRepository,WebProject.Repositories.IAlbumRepository,WebProject.Repositories.IMusicRepository,WebProject.Repositories.IPlaylistRepository,System.Lazy`1<WebProject.Services.IAlbumService>)": {
+          "Lines": {
+            "14": 85,
+            "15": 85,
+            "16": 85,
+            "17": 85,
+            "18": 85,
+            "19": 85,
+            "20": 85,
+            "21": 85
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Services.ArtistService/<>c": {
+        "System.Boolean WebProject.Services.ArtistService/<>c::<OutputAllAlbumsByArtistId>b__11_0(WebProject.DTO_s.AlbumWithMusicDTO)": {
+          "Lines": {
+            "80": 4
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Services.ArtistService/<CreateArtistAsync>d__6": {
+        "System.Void WebProject.Services.ArtistService/<CreateArtistAsync>d__6::MoveNext()": {
+          "Lines": {
+            "23": 2,
+            "25": 2,
+            "26": 2,
+            "27": 2,
+            "28": 2,
+            "29": 2,
+            "30": 2,
+            "31": 2,
+            "32": 2,
+            "33": 2,
+            "34": 2
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Services.ArtistService/<DeleteArtistAsync>d__10": {
+        "System.Void WebProject.Services.ArtistService/<DeleteArtistAsync>d__10::MoveNext()": {
+          "Lines": {
+            "57": 2,
+            "58": 2,
+            "60": 2,
+            "62": 2,
+            "65": 2,
+            "67": 2,
+            "68": 2
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Services.ArtistService/<DeleteMusicByArtistIdFromPlaylistAsync>d__9": {
+        "System.Void WebProject.Services.ArtistService/<DeleteMusicByArtistIdFromPlaylistAsync>d__9::MoveNext()": {
+          "Lines": {
+            "47": 0,
+            "48": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Services.ArtistService/<GetArtist>d__8": {
+        "System.Void WebProject.Services.ArtistService/<GetArtist>d__8::MoveNext()": {
+          "Lines": {
+            "42": 73,
+            "43": 73,
+            "44": 73,
+            "45": 73
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Services.ArtistService/<GetArtistByIdAsync>d__7": {
+        "System.Void WebProject.Services.ArtistService/<GetArtistByIdAsync>d__7::MoveNext()": {
+          "Lines": {
+            "38": 8,
+            "39": 8,
+            "40": 8
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Services.ArtistService/<OutputAllAlbumsByArtistId>d__11": {
+        "System.Void WebProject.Services.ArtistService/<OutputAllAlbumsByArtistId>d__11::MoveNext()": {
+          "Lines": {
+            "71": 2,
+            "72": 2,
+            "73": 2,
+            "74": 1,
+            "75": 1,
+            "78": 1,
+            "82": 1,
+            "83": 1,
+            "84": 1,
+            "85": 1,
+            "86": 1,
+            "87": 1,
+            "88": 1,
+            "89": 1,
+            "90": 1,
+            "91": 2
+          },
+          "Branches": [
+            {
+              "Line": 73,
+              "Offset": 170,
+              "EndOffset": 172,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 73,
+              "Offset": 170,
+              "EndOffset": 180,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "D:\\MainWebProject\\Services\\EmailService.cs": {
+      "WebProject.Services.EmailService": {
+        "System.Void WebProject.Services.EmailService::.ctor(WebProject.Repositories.IEmailRepository)": {
+          "Lines": {
+            "10": 22,
+            "11": 22,
+            "12": 22,
+            "13": 22
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Services.EmailService/<SendEmailAsync>d__2": {
+        "System.Void WebProject.Services.EmailService/<SendEmailAsync>d__2::MoveNext()": {
+          "Lines": {
+            "16": 2,
+            "17": 2,
+            "18": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\Services\\MusicService.cs": {
+      "WebProject.Services.MusicService": {
+        "System.Void WebProject.Services.MusicService::.ctor(WebProject.Repositories.IMusicRepository,WebProject.Services.IArtistService,WebProject.Services.IAlbumService,WebProject.Repositories.IAlbumRepository,WebProject.Repositories.IPlaylistRepository)": {
+          "Lines": {
+            "15": 16,
+            "16": 16,
+            "17": 16,
+            "18": 16,
+            "19": 16,
+            "20": 16,
+            "21": 16,
+            "22": 16
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Services.MusicService/<CreateMusicAsync>d__10": {
+        "System.Void WebProject.Services.MusicService/<CreateMusicAsync>d__10::MoveNext()": {
+          "Lines": {
+            "270": 0,
+            "271": 0,
+            "273": 0,
+            "274": 0,
+            "275": 0,
+            "278": 0,
+            "279": 0,
+            "280": 0,
+            "281": 0,
+            "282": 0,
+            "283": 0,
+            "284": 0,
+            "285": 0,
+            "286": 0,
+            "287": 0,
+            "288": 0,
+            "290": 0,
+            "291": 0,
+            "292": 0,
+            "293": 0,
+            "294": 0,
+            "295": 0,
+            "296": 0,
+            "297": 0,
+            "298": 0,
+            "299": 0,
+            "300": 0,
+            "302": 0,
+            "303": 0
+          },
+          "Branches": [
+            {
+              "Line": 271,
+              "Offset": 69,
+              "EndOffset": 71,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 271,
+              "Offset": 92,
+              "EndOffset": 94,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 271,
+              "Offset": 69,
+              "EndOffset": 107,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 271,
+              "Offset": 92,
+              "EndOffset": 107,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 273,
+              "Offset": 125,
+              "EndOffset": 127,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 273,
+              "Offset": 125,
+              "EndOffset": 155,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 273,
+              "Offset": 158,
+              "EndOffset": 160,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 273,
+              "Offset": 158,
+              "EndOffset": 172,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 292,
+              "Offset": 577,
+              "EndOffset": 582,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 295,
+              "Offset": 736,
+              "EndOffset": 741,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 295,
+              "Offset": 736,
+              "EndOffset": 895,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 292,
+              "Offset": 577,
+              "EndOffset": 903,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "WebProject.Services.MusicService/<DeleteMusicAsync>d__13": {
+        "System.Void WebProject.Services.MusicService/<DeleteMusicAsync>d__13::MoveNext()": {
+          "Lines": {
+            "315": 0,
+            "316": 0,
+            "318": 0,
+            "319": 0,
+            "320": 0,
+            "323": 0,
+            "324": 0,
+            "325": 0,
+            "326": 0,
+            "327": 0,
+            "328": 0,
+            "330": 0,
+            "332": 0,
+            "335": 0
+          },
+          "Branches": [
+            {
+              "Line": 319,
+              "Offset": 322,
+              "EndOffset": 324,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 319,
+              "Offset": 322,
+              "EndOffset": 331,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 324,
+              "Offset": 488,
+              "EndOffset": 493,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 324,
+              "Offset": 488,
+              "EndOffset": 649,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "WebProject.Services.MusicService/<Get10RandomMusicWithArtistAsync>d__6": {
+        "System.Void WebProject.Services.MusicService/<Get10RandomMusicWithArtistAsync>d__6::MoveNext()": {
+          "Lines": {
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "108": 0,
+            "109": 0
+          },
+          "Branches": [
+            {
+              "Line": 60,
+              "Offset": 16,
+              "EndOffset": 27,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 16,
+              "EndOffset": 187,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 64,
+              "Offset": 1103,
+              "EndOffset": 230,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 69,
+              "Offset": 285,
+              "EndOffset": 290,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 69,
+              "Offset": 285,
+              "EndOffset": 436,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 74,
+              "Offset": 459,
+              "EndOffset": 464,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 79,
+              "Offset": 639,
+              "EndOffset": 644,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 79,
+              "Offset": 639,
+              "EndOffset": 790,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 74,
+              "Offset": 459,
+              "EndOffset": 901,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 64,
+              "Offset": 1103,
+              "EndOffset": 1108,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "WebProject.Services.MusicService/<Get5RandomMusicByArtistIdWithArtistAsync>d__7": {
+        "System.Void WebProject.Services.MusicService/<Get5RandomMusicByArtistIdWithArtistAsync>d__7::MoveNext()": {
+          "Lines": {
+            "111": 1,
+            "112": 1,
+            "113": 1,
+            "115": 13,
+            "116": 5,
+            "117": 5,
+            "118": 5,
+            "121": 5,
+            "122": 5,
+            "123": 5,
+            "124": 5,
+            "127": 5,
+            "128": 5,
+            "129": 5,
+            "130": 5,
+            "132": 5,
+            "133": 5,
+            "134": 5,
+            "135": 5,
+            "137": 5,
+            "138": 5,
+            "139": 5,
+            "140": 5,
+            "141": 5,
+            "142": 5,
+            "143": 5,
+            "144": 5,
+            "145": 5,
+            "148": 5,
+            "149": 5,
+            "150": 5,
+            "151": 5,
+            "152": 5,
+            "153": 5,
+            "154": 5,
+            "155": 5,
+            "156": 5,
+            "157": 5,
+            "158": 5,
+            "159": 5,
+            "160": 5,
+            "162": 1,
+            "163": 1
+          },
+          "Branches": [
+            {
+              "Line": 111,
+              "Offset": 16,
+              "EndOffset": 27,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 111,
+              "Offset": 16,
+              "EndOffset": 193,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 16
+            },
+            {
+              "Line": 115,
+              "Offset": 1109,
+              "EndOffset": 236,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 5
+            },
+            {
+              "Line": 121,
+              "Offset": 291,
+              "EndOffset": 296,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 5
+            },
+            {
+              "Line": 121,
+              "Offset": 291,
+              "EndOffset": 442,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 5
+            },
+            {
+              "Line": 127,
+              "Offset": 465,
+              "EndOffset": 470,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 5
+            },
+            {
+              "Line": 132,
+              "Offset": 645,
+              "EndOffset": 650,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 5
+            },
+            {
+              "Line": 132,
+              "Offset": 645,
+              "EndOffset": 796,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 5
+            },
+            {
+              "Line": 127,
+              "Offset": 465,
+              "EndOffset": 907,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 5
+            },
+            {
+              "Line": 115,
+              "Offset": 1109,
+              "EndOffset": 1114,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "WebProject.Services.MusicService/<GetMusicArtistByIdAsync>d__8": {
+        "System.Void WebProject.Services.MusicService/<GetMusicArtistByIdAsync>d__8::MoveNext()": {
+          "Lines": {
+            "167": 0,
+            "168": 0,
+            "170": 0,
+            "171": 0,
+            "173": 0,
+            "174": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "201": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0
+          },
+          "Branches": [
+            {
+              "Line": 170,
+              "Offset": 198,
+              "EndOffset": 200,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 170,
+              "Offset": 198,
+              "EndOffset": 207,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 176,
+              "Offset": 244,
+              "EndOffset": 249,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 176,
+              "Offset": 244,
+              "EndOffset": 395,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 181,
+              "Offset": 418,
+              "EndOffset": 423,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 186,
+              "Offset": 598,
+              "EndOffset": 603,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 186,
+              "Offset": 598,
+              "EndOffset": 749,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 181,
+              "Offset": 418,
+              "EndOffset": 860,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "WebProject.Services.MusicService/<GetMusicsArtistByTitle>d__9": {
+        "System.Void WebProject.Services.MusicService/<GetMusicsArtistByTitle>d__9::MoveNext()": {
+          "Lines": {
+            "217": 0,
+            "218": 0,
+            "219": 0,
+            "221": 0,
+            "222": 0,
+            "223": 0,
+            "224": 0,
+            "226": 0,
+            "227": 0,
+            "228": 0,
+            "229": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "241": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "245": 0,
+            "246": 0,
+            "247": 0,
+            "248": 0,
+            "249": 0,
+            "250": 0,
+            "251": 0,
+            "253": 0,
+            "254": 0,
+            "255": 0,
+            "256": 0,
+            "257": 0,
+            "258": 0,
+            "259": 0,
+            "260": 0,
+            "261": 0,
+            "262": 0,
+            "263": 0,
+            "264": 0,
+            "265": 0,
+            "267": 0,
+            "268": 0
+          },
+          "Branches": [
+            {
+              "Line": 217,
+              "Offset": 16,
+              "EndOffset": 27,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 217,
+              "Offset": 16,
+              "EndOffset": 193,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 221,
+              "Offset": 906,
+              "EndOffset": 221,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 226,
+              "Offset": 276,
+              "EndOffset": 281,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 226,
+              "Offset": 276,
+              "EndOffset": 427,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 231,
+              "Offset": 450,
+              "EndOffset": 455,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 231,
+              "Offset": 450,
+              "EndOffset": 704,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 221,
+              "Offset": 906,
+              "EndOffset": 911,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "WebProject.Services.MusicService/<GetMusicsByArtist>d__11": {
+        "System.Void WebProject.Services.MusicService/<GetMusicsByArtist>d__11::MoveNext()": {
+          "Lines": {
+            "305": 0,
+            "306": 0,
+            "307": 0,
+            "308": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Services.MusicService/<GetMusicsByTitle>d__12": {
+        "System.Void WebProject.Services.MusicService/<GetMusicsByTitle>d__12::MoveNext()": {
+          "Lines": {
+            "311": 0,
+            "312": 0,
+            "313": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\Services\\PasswordService.cs": {
+      "WebProject.Services.PasswordService": {
+        "System.Byte[] WebProject.Services.PasswordService::GenerateSalt()": {
+          "Lines": {
+            "8": 4,
+            "9": 4,
+            "10": 4,
+            "11": 4,
+            "12": 4,
+            "13": 4,
+            "14": 4,
+            "15": 4
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Services.PasswordService::HashPasswordPBKDF2(System.String,System.Byte[])": {
+          "Lines": {
+            "18": 6,
+            "21": 6,
+            "22": 6,
+            "23": 6,
+            "24": 6,
+            "26": 6,
+            "27": 6,
+            "29": 6,
+            "31": 6
+          },
+          "Branches": []
+        },
+        "System.Boolean WebProject.Services.PasswordService::VerifyPassword(System.String,System.String)": {
+          "Lines": {
+            "34": 2,
+            "35": 2,
+            "36": 2,
+            "37": 2,
+            "39": 2,
+            "40": 2,
+            "42": 2,
+            "44": 2,
+            "45": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\Services\\PlaylistService.cs": {
+      "WebProject.Services.PlaylistService": {
+        "System.Void WebProject.Services.PlaylistService::.ctor(WebProject.Repositories.IPlaylistRepository,WebProject.Services.IIMusicService,WebProject.Services.IAccountService)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Services.PlaylistService/<CreatePlaylistAsync>d__4": {
+        "System.Void WebProject.Services.PlaylistService/<CreatePlaylistAsync>d__4::MoveNext()": {
+          "Lines": {
+            "19": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Services.PlaylistService/<DeletePlaylistAsync>d__7": {
+        "System.Void WebProject.Services.PlaylistService/<DeletePlaylistAsync>d__7::MoveNext()": {
+          "Lines": {
+            "85": 0,
+            "86": 0,
+            "87": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Services.PlaylistService/<GetPlaylistByIdAsync>d__5": {
+        "System.Void WebProject.Services.PlaylistService/<GetPlaylistByIdAsync>d__5::MoveNext()": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Services.PlaylistService/<GetPlaylistWithMusicsAsync>d__6": {
+        "System.Void WebProject.Services.PlaylistService/<GetPlaylistWithMusicsAsync>d__6::MoveNext()": {
+          "Lines": {
+            "37": 0,
+            "38": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "58": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "82": 0,
+            "83": 0
+          },
+          "Branches": [
+            {
+              "Line": 40,
+              "Offset": 189,
+              "EndOffset": 191,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 189,
+              "EndOffset": 199,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 221,
+              "EndOffset": 223,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 221,
+              "EndOffset": 241,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 246,
+              "EndOffset": 251,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 512,
+              "EndOffset": 289,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 464,
+              "EndOffset": 466,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 51,
+              "Offset": 464,
+              "EndOffset": 486,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 512,
+              "EndOffset": 517,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 246,
+              "EndOffset": 555,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 719,
+              "EndOffset": 721,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 61,
+              "Offset": 719,
+              "EndOffset": 770,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\MainWebProject\\Services\\SecondMusicService.cs": {
+      "WebProject.Services.SecondMusicService": {
+        "System.Void WebProject.Services.SecondMusicService::.ctor(WebProject.Repositories.IMusicRepository,WebProject.Services.IArtistService,System.Lazy`1<WebProject.Services.IAlbumService>)": {
+          "Lines": {
+            "14": 27,
+            "15": 27,
+            "16": 27,
+            "17": 27,
+            "18": 27,
+            "19": 27
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Services.SecondMusicService/<GetFullMusicArtistByIdAsync>d__5": {
+        "System.Void WebProject.Services.SecondMusicService/<GetFullMusicArtistByIdAsync>d__5::MoveNext()": {
+          "Lines": {
+            "26": 26,
+            "27": 26,
+            "29": 26,
+            "30": 0,
+            "32": 26,
+            "33": 26,
+            "35": 26,
+            "36": 26,
+            "37": 26,
+            "38": 26,
+            "40": 26,
+            "41": 26,
+            "42": 26,
+            "43": 26,
+            "45": 26,
+            "46": 26,
+            "47": 26,
+            "48": 26,
+            "50": 26,
+            "51": 26,
+            "52": 26,
+            "53": 26,
+            "54": 26,
+            "55": 26,
+            "56": 26,
+            "57": 26,
+            "58": 26,
+            "59": 26,
+            "61": 26,
+            "62": 26,
+            "63": 26,
+            "64": 26,
+            "65": 26,
+            "66": 26,
+            "67": 26,
+            "68": 26,
+            "69": 26,
+            "70": 26,
+            "71": 26,
+            "72": 26,
+            "75": 26
+          },
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 198,
+              "EndOffset": 200,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 198,
+              "EndOffset": 207,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 26
+            },
+            {
+              "Line": 35,
+              "Offset": 244,
+              "EndOffset": 249,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 26
+            },
+            {
+              "Line": 35,
+              "Offset": 244,
+              "EndOffset": 395,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 26
+            },
+            {
+              "Line": 40,
+              "Offset": 418,
+              "EndOffset": 423,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 26
+            },
+            {
+              "Line": 45,
+              "Offset": 603,
+              "EndOffset": 608,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 26
+            },
+            {
+              "Line": 45,
+              "Offset": 603,
+              "EndOffset": 754,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 26
+            },
+            {
+              "Line": 40,
+              "Offset": 418,
+              "EndOffset": 865,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 26
+            }
+          ]
+        }
+      },
+      "WebProject.Services.SecondMusicService/<GetMusicByIdAsync>d__4": {
+        "System.Void WebProject.Services.SecondMusicService/<GetMusicByIdAsync>d__4::MoveNext()": {
+          "Lines": {
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\Repositories\\AccountRepository.cs": {
+      "WebProject.Repositories.AccountRepository": {
+        "System.Void WebProject.Repositories.AccountRepository::.ctor(WebProject.Datas.MongoDbService)": {
+          "Lines": {
+            "14": 22,
+            "15": 22,
+            "16": 22,
+            "17": 22
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.AccountRepository/<CreateAccountAsync>d__2": {
+        "System.Void WebProject.Repositories.AccountRepository/<CreateAccountAsync>d__2::MoveNext()": {
+          "Lines": {
+            "20": 1,
+            "21": 1,
+            "22": 1
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.AccountRepository/<GetAccountByEmailAsync>d__7": {
+        "System.Void WebProject.Repositories.AccountRepository/<GetAccountByEmailAsync>d__7::MoveNext()": {
+          "Lines": {
+            "43": 0,
+            "44": 0,
+            "45": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.AccountRepository/<GetAccountByEmailOrNameAsync>d__8": {
+        "System.Void WebProject.Repositories.AccountRepository/<GetAccountByEmailOrNameAsync>d__8::MoveNext()": {
+          "Lines": {
+            "48": 5,
+            "49": 5,
+            "50": 5
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.AccountRepository/<GetAccountByIdAsync>d__5": {
+        "System.Void WebProject.Repositories.AccountRepository/<GetAccountByIdAsync>d__5::MoveNext()": {
+          "Lines": {
+            "33": 6,
+            "34": 6,
+            "35": 4
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.AccountRepository/<GetAccountByNameAsync>d__6": {
+        "System.Void WebProject.Repositories.AccountRepository/<GetAccountByNameAsync>d__6::MoveNext()": {
+          "Lines": {
+            "38": 2,
+            "39": 2,
+            "40": 2
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.AccountRepository/<GetAccountByTokenAsync>d__3": {
+        "System.Void WebProject.Repositories.AccountRepository/<GetAccountByTokenAsync>d__3::MoveNext()": {
+          "Lines": {
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.AccountRepository/<GetAllVerifiedAccountsAsync>d__4": {
+        "System.Void WebProject.Repositories.AccountRepository/<GetAllVerifiedAccountsAsync>d__4::MoveNext()": {
+          "Lines": {
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.AccountRepository/<GetImageByIdAsync>d__9": {
+        "System.Void WebProject.Repositories.AccountRepository/<GetImageByIdAsync>d__9::MoveNext()": {
+          "Lines": {
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.AccountRepository/<UpdateAccountAsync>d__10": {
+        "System.Void WebProject.Repositories.AccountRepository/<UpdateAccountAsync>d__10::MoveNext()": {
+          "Lines": {
+            "57": 2,
+            "58": 2,
+            "59": 2,
+            "60": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\Repositories\\AlbumRepository.cs": {
+      "WebProject.Repositories.AlbumRepository": {
+        "System.Void WebProject.Repositories.AlbumRepository::.ctor(WebProject.Datas.MongoDbService,System.Lazy`1<WebProject.Services.IIMusicService>)": {
+          "Lines": {
+            "15": 135,
+            "16": 135,
+            "17": 135,
+            "18": 135,
+            "19": 135
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.AlbumRepository/<>c": {
+        "System.String WebProject.Repositories.AlbumRepository/<>c::<Get10RandomAlbumIdAsync>b__10_0(MongoDB.Bson.BsonDocument)": {
+          "Lines": {
+            "72": 11
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.AlbumRepository/<AddMusicToAlbumAsync>d__3": {
+        "System.Void WebProject.Repositories.AlbumRepository/<AddMusicToAlbumAsync>d__3::MoveNext()": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.AlbumRepository/<CreateAlbumAsync>d__4": {
+        "System.Void WebProject.Repositories.AlbumRepository/<CreateAlbumAsync>d__4::MoveNext()": {
+          "Lines": {
+            "27": 1,
+            "28": 1,
+            "29": 1
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.AlbumRepository/<DeleteAlbumsByArtistIdAsync>d__8": {
+        "System.Void WebProject.Repositories.AlbumRepository/<DeleteAlbumsByArtistIdAsync>d__8::MoveNext()": {
+          "Lines": {
+            "45": 2,
+            "46": 2,
+            "47": 2,
+            "48": 2
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.AlbumRepository/<Get10RandomAlbumIdAsync>d__10": {
+        "System.Void WebProject.Repositories.AlbumRepository/<Get10RandomAlbumIdAsync>d__10::MoveNext()": {
+          "Lines": {
+            "62": 1,
+            "63": 1,
+            "64": 1,
+            "65": 1,
+            "66": 1,
+            "67": 1,
+            "69": 1,
+            "73": 1
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.AlbumRepository/<Get10RandomAlbumsAsync>d__9": {
+        "System.Void WebProject.Repositories.AlbumRepository/<Get10RandomAlbumsAsync>d__9::MoveNext()": {
+          "Lines": {
+            "51": 1,
+            "52": 1,
+            "53": 1,
+            "54": 1,
+            "55": 1,
+            "57": 1,
+            "58": 1
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.AlbumRepository/<GetAlbumByIdAsync>d__5": {
+        "System.Void WebProject.Repositories.AlbumRepository/<GetAlbumByIdAsync>d__5::MoveNext()": {
+          "Lines": {
+            "31": 35,
+            "32": 35,
+            "33": 35
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.AlbumRepository/<GetAlbumsByArtistIdAsync>d__12": {
+        "System.Void WebProject.Repositories.AlbumRepository/<GetAlbumsByArtistIdAsync>d__12::MoveNext()": {
+          "Lines": {
+            "81": 1,
+            "82": 1,
+            "83": 1,
+            "85": 1,
+            "87": 9,
+            "88": 3,
+            "89": 3,
+            "91": 3,
+            "92": 3,
+            "93": 59,
+            "94": 25,
+            "95": 25,
+            "96": 25,
+            "97": 25,
+            "98": 25,
+            "99": 25,
+            "100": 25,
+            "101": 3,
+            "103": 3,
+            "104": 3,
+            "105": 3,
+            "106": 3,
+            "107": 3,
+            "108": 3,
+            "109": 3,
+            "110": 3,
+            "111": 3,
+            "113": 1,
+            "114": 1
+          },
+          "Branches": [
+            {
+              "Line": 87,
+              "Offset": 816,
+              "EndOffset": 304,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 3
+            },
+            {
+              "Line": 91,
+              "Offset": 344,
+              "EndOffset": 346,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 91,
+              "Offset": 344,
+              "EndOffset": 364,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 91,
+              "Offset": 369,
+              "EndOffset": 374,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 3
+            },
+            {
+              "Line": 93,
+              "Offset": 636,
+              "EndOffset": 412,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 25
+            },
+            {
+              "Line": 96,
+              "Offset": 588,
+              "EndOffset": 590,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 25
+            },
+            {
+              "Line": 96,
+              "Offset": 588,
+              "EndOffset": 610,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 25
+            },
+            {
+              "Line": 93,
+              "Offset": 636,
+              "EndOffset": 641,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 3
+            },
+            {
+              "Line": 91,
+              "Offset": 369,
+              "EndOffset": 679,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 87,
+              "Offset": 816,
+              "EndOffset": 821,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "WebProject.Repositories.AlbumRepository/<GetAllAlbumsByIdAsync>d__11": {
+        "System.Void WebProject.Repositories.AlbumRepository/<GetAllAlbumsByIdAsync>d__11::MoveNext()": {
+          "Lines": {
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.AlbumRepository/<GetAllAlbumsByTitleAsync>d__6": {
+        "System.Void WebProject.Repositories.AlbumRepository/<GetAllAlbumsByTitleAsync>d__6::MoveNext()": {
+          "Lines": {
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.AlbumRepository/<UpdateAlbumAsync>d__7": {
+        "System.Void WebProject.Repositories.AlbumRepository/<UpdateAlbumAsync>d__7::MoveNext()": {
+          "Lines": {
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\Repositories\\ArtistRepository.cs": {
+      "WebProject.Repositories.ArtistRepository": {
+        "System.Void WebProject.Repositories.ArtistRepository::.ctor(WebProject.Datas.MongoDbService)": {
+          "Lines": {
+            "12": 101,
+            "13": 101,
+            "14": 101,
+            "16": 101
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.ArtistRepository/<>c": {
+        "System.String WebProject.Repositories.ArtistRepository/<>c::<Get5RandomArtistsIdAsync>b__8_0(MongoDB.Bson.BsonDocument)": {
+          "Lines": {
+            "65": 4
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.ArtistRepository/<CreateArtistAsync>d__2": {
+        "System.Void WebProject.Repositories.ArtistRepository/<CreateArtistAsync>d__2::MoveNext()": {
+          "Lines": {
+            "18": 2,
+            "19": 2,
+            "20": 2
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.ArtistRepository/<DeleteArtistAsync>d__6": {
+        "System.Void WebProject.Repositories.ArtistRepository/<DeleteArtistAsync>d__6::MoveNext()": {
+          "Lines": {
+            "38": 2,
+            "39": 2,
+            "40": 2,
+            "41": 2
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.ArtistRepository/<Get5RandomArtistsAsync>d__7": {
+        "System.Void WebProject.Repositories.ArtistRepository/<Get5RandomArtistsAsync>d__7::MoveNext()": {
+          "Lines": {
+            "44": 1,
+            "45": 1,
+            "46": 1,
+            "47": 1,
+            "48": 1,
+            "50": 1,
+            "51": 1
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.ArtistRepository/<Get5RandomArtistsIdAsync>d__8": {
+        "System.Void WebProject.Repositories.ArtistRepository/<Get5RandomArtistsIdAsync>d__8::MoveNext()": {
+          "Lines": {
+            "55": 1,
+            "56": 1,
+            "57": 1,
+            "58": 1,
+            "59": 1,
+            "60": 1,
+            "62": 1,
+            "66": 1
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.ArtistRepository/<GetAllArtistsByNameAsync>d__4": {
+        "System.Void WebProject.Repositories.ArtistRepository/<GetAllArtistsByNameAsync>d__4::MoveNext()": {
+          "Lines": {
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.ArtistRepository/<GetArtistByIdAsync>d__3": {
+        "System.Void WebProject.Repositories.ArtistRepository/<GetArtistByIdAsync>d__3::MoveNext()": {
+          "Lines": {
+            "23": 81,
+            "24": 81,
+            "25": 81
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.ArtistRepository/<UpdateArtistAsync>d__5": {
+        "System.Void WebProject.Repositories.ArtistRepository/<UpdateArtistAsync>d__5::MoveNext()": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\Repositories\\EmailRepository.cs": {
+      "WebProject.Repositories.EmailRepository": {
+        "System.Void WebProject.Repositories.EmailRepository::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "11": 22,
+            "12": 22,
+            "13": 22,
+            "14": 22
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.EmailRepository/<SendEmailAsync>d__2": {
+        "System.Void WebProject.Repositories.EmailRepository/<SendEmailAsync>d__2::MoveNext()": {
+          "Lines": {
+            "17": 2,
+            "19": 2,
+            "20": 2,
+            "22": 2,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "28": 2,
+            "29": 2,
+            "30": 2,
+            "31": 2,
+            "32": 2,
+            "33": 2,
+            "35": 2,
+            "36": 2,
+            "37": 2,
+            "38": 2,
+            "39": 2,
+            "40": 2,
+            "41": 2,
+            "43": 2,
+            "45": 1,
+            "46": 1,
+            "48": 1,
+            "49": 1,
+            "50": 1,
+            "51": 1,
+            "53": 2
+          },
+          "Branches": [
+            {
+              "Line": 22,
+              "Offset": 70,
+              "EndOffset": 72,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 22,
+              "Offset": 88,
+              "EndOffset": 90,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 22,
+              "Offset": 70,
+              "EndOffset": 108,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 88,
+              "EndOffset": 108,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 111,
+              "EndOffset": 113,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 111,
+              "EndOffset": 132,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            }
+          ]
+        }
+      }
+    },
+    "D:\\MainWebProject\\Repositories\\MusicRepository.cs": {
+      "WebProject.Repositories.MusicRepository": {
+        "System.Void WebProject.Repositories.MusicRepository::.ctor(WebProject.Datas.MongoDbService)": {
+          "Lines": {
+            "12": 245,
+            "13": 245,
+            "14": 245,
+            "15": 245
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.MusicRepository/<>c": {
+        "System.String WebProject.Repositories.MusicRepository/<>c::<Get10RandomMusicsIdAsync>b__7_0(MongoDB.Bson.BsonDocument)": {
+          "Lines": {
+            "68": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.MusicRepository/<CreateMusicAsync>d__2": {
+        "System.Void WebProject.Repositories.MusicRepository/<CreateMusicAsync>d__2::MoveNext()": {
+          "Lines": {
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.MusicRepository/<DeleteMusicAsync>d__12": {
+        "System.Void WebProject.Repositories.MusicRepository/<DeleteMusicAsync>d__12::MoveNext()": {
+          "Lines": {
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.MusicRepository/<DeleteMusicByArtistIdAsync>d__13": {
+        "System.Void WebProject.Repositories.MusicRepository/<DeleteMusicByArtistIdAsync>d__13::MoveNext()": {
+          "Lines": {
+            "99": 2,
+            "100": 2,
+            "101": 2,
+            "102": 2
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.MusicRepository/<Get10RandomMusicsAsync>d__5": {
+        "System.Void WebProject.Repositories.MusicRepository/<Get10RandomMusicsAsync>d__5::MoveNext()": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "38": 0,
+            "39": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.MusicRepository/<Get10RandomMusicsIdAsync>d__7": {
+        "System.Void WebProject.Repositories.MusicRepository/<Get10RandomMusicsIdAsync>d__7::MoveNext()": {
+          "Lines": {
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "65": 0,
+            "69": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.MusicRepository/<Get5RandomMusicByArtistIdAsync>d__6": {
+        "System.Void WebProject.Repositories.MusicRepository/<Get5RandomMusicByArtistIdAsync>d__6::MoveNext()": {
+          "Lines": {
+            "42": 1,
+            "43": 1,
+            "44": 0,
+            "46": 1,
+            "47": 1,
+            "48": 1,
+            "49": 1,
+            "50": 1,
+            "52": 1,
+            "53": 1
+          },
+          "Branches": [
+            {
+              "Line": 43,
+              "Offset": 40,
+              "EndOffset": 42,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 43,
+              "Offset": 40,
+              "EndOffset": 53,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "WebProject.Repositories.MusicRepository/<GetAllMusicByArtistAsync>d__10": {
+        "System.Void WebProject.Repositories.MusicRepository/<GetAllMusicByArtistAsync>d__10::MoveNext()": {
+          "Lines": {
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.MusicRepository/<GetAllMusicByTitleAsync>d__4": {
+        "System.Void WebProject.Repositories.MusicRepository/<GetAllMusicByTitleAsync>d__4::MoveNext()": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.MusicRepository/<GetMusicByArtistIdAsync>d__14": {
+        "System.Void WebProject.Repositories.MusicRepository/<GetMusicByArtistIdAsync>d__14::MoveNext()": {
+          "Lines": {
+            "104": 2,
+            "105": 2,
+            "106": 2,
+            "107": 2
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.MusicRepository/<GetMusicByIdAsync>d__11": {
+        "System.Void WebProject.Repositories.MusicRepository/<GetMusicByIdAsync>d__11::MoveNext()": {
+          "Lines": {
+            "89": 26,
+            "90": 26,
+            "91": 26,
+            "92": 26
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.MusicRepository/<GetTopListenedMusicAsync>d__9": {
+        "System.Void WebProject.Repositories.MusicRepository/<GetTopListenedMusicAsync>d__9::MoveNext()": {
+          "Lines": {
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.MusicRepository/<IncrementListeningCountAsync>d__8": {
+        "System.Void WebProject.Repositories.MusicRepository/<IncrementListeningCountAsync>d__8::MoveNext()": {
+          "Lines": {
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.MusicRepository/<UpdateMusicAsync>d__3": {
+        "System.Void WebProject.Repositories.MusicRepository/<UpdateMusicAsync>d__3::MoveNext()": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\Repositories\\PlaylistRepository.cs": {
+      "WebProject.Repositories.PlaylistRepository": {
+        "System.Void WebProject.Repositories.PlaylistRepository::.ctor(WebProject.Datas.MongoDbService,WebProject.Repositories.IMusicRepository)": {
+          "Lines": {
+            "26": 101,
+            "27": 101,
+            "28": 101,
+            "29": 101,
+            "30": 101
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.PlaylistRepository/<>c": {
+        "System.String WebProject.Repositories.PlaylistRepository/<>c::<DeleteMusicByArtistIdFromPlaylistAsync>b__7_0(WebProject.Entities.Music)": {
+          "Lines": {
+            "53": 2
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.PlaylistRepository/<CreatePlaylistAsync>d__3": {
+        "System.Void WebProject.Repositories.PlaylistRepository/<CreatePlaylistAsync>d__3::MoveNext()": {
+          "Lines": {
+            "32": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.PlaylistRepository/<DeleteMusicByArtistIdFromPlaylistAsync>d__7": {
+        "System.Void WebProject.Repositories.PlaylistRepository/<DeleteMusicByArtistIdFromPlaylistAsync>d__7::MoveNext()": {
+          "Lines": {
+            "51": 2,
+            "52": 2,
+            "55": 4,
+            "57": 0,
+            "58": 0,
+            "60": 0,
+            "61": 2
+          },
+          "Branches": [
+            {
+              "Line": 55,
+              "Offset": 231,
+              "EndOffset": 233,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 55,
+              "Offset": 231,
+              "EndOffset": 238,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "WebProject.Repositories.PlaylistRepository/<DeleteMusicFromPlaylistsAsync>d__8": {
+        "System.Void WebProject.Repositories.PlaylistRepository/<DeleteMusicFromPlaylistsAsync>d__8::MoveNext()": {
+          "Lines": {
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "67": 0,
+            "68": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.PlaylistRepository/<DeletePlaylistAsync>d__6": {
+        "System.Void WebProject.Repositories.PlaylistRepository/<DeletePlaylistAsync>d__6::MoveNext()": {
+          "Lines": {
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.PlaylistRepository/<GetPlaylistByIdAsync>d__5": {
+        "System.Void WebProject.Repositories.PlaylistRepository/<GetPlaylistByIdAsync>d__5::MoveNext()": {
+          "Lines": {
+            "42": 0,
+            "43": 0,
+            "44": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Repositories.PlaylistRepository/<UpdatePlaylistAsync>d__4": {
+        "System.Void WebProject.Repositories.PlaylistRepository/<UpdatePlaylistAsync>d__4::MoveNext()": {
+          "Lines": {
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\Models\\EmailRequest.cs": {
+      "WebProject.Models.EmailRequest": {
+        "System.String WebProject.Models.EmailRequest::get_To()": {
+          "Lines": {
+            "5": 6
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Models.EmailRequest::get_Subject()": {
+          "Lines": {
+            "6": 6
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Models.EmailRequest::get_Body()": {
+          "Lines": {
+            "7": 6
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\Extensions\\AuthenticationExtensions.cs": {
+      "WebProject.Extensions.AuthenticationExtensions": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection WebProject.Extensions.AuthenticationExtensions::AddJwtAuthentication(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "11": 3,
+            "12": 3,
+            "14": 3,
+            "15": 3,
+            "16": 3,
+            "17": 3,
+            "18": 3,
+            "19": 3,
+            "20": 3,
+            "21": 3,
+            "22": 3,
+            "23": 3,
+            "24": 3,
+            "25": 3,
+            "26": 3,
+            "27": 3,
+            "28": 3,
+            "29": 3,
+            "30": 3,
+            "31": 6,
+            "33": 3,
+            "34": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\Extensions\\LazyService.cs": {
+      "WebProject.Extensions.LazyService`1": {
+        "System.Void WebProject.Extensions.LazyService`1::.ctor(System.IServiceProvider)": {
+          "Lines": {
+            "6": 250,
+            "7": 247,
+            "8": 247
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\Extensions\\ServiceCollectionExtensions.cs": {
+      "WebProject.Extensions.ServiceCollectionExtensions": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection WebProject.Extensions.ServiceCollectionExtensions::AddCustomServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "11": 3,
+            "12": 3,
+            "14": 3,
+            "15": 3,
+            "17": 3,
+            "18": 3,
+            "19": 3,
+            "21": 3,
+            "22": 3,
+            "24": 3,
+            "25": 3,
+            "27": 3,
+            "28": 3,
+            "30": 3,
+            "31": 3,
+            "33": 3,
+            "35": 3,
+            "36": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\Extensions\\SwaggerExtensions.cs": {
+      "WebProject.Extensions.SwaggerExtensions": {
+        "Microsoft.Extensions.DependencyInjection.IServiceCollection WebProject.Extensions.SwaggerExtensions::AddCustomSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
+          "Lines": {
+            "8": 3,
+            "9": 3,
+            "10": 3,
+            "11": 3,
+            "12": 3,
+            "13": 3,
+            "14": 3,
+            "15": 3,
+            "16": 3,
+            "17": 3,
+            "18": 3,
+            "19": 3,
+            "20": 3,
+            "21": 3,
+            "22": 3,
+            "23": 3,
+            "24": 3,
+            "25": 3,
+            "26": 3,
+            "27": 3,
+            "28": 3,
+            "29": 3,
+            "30": 3,
+            "31": 3,
+            "32": 3,
+            "33": 3,
+            "34": 3,
+            "35": 3,
+            "36": 6,
+            "38": 3,
+            "39": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\Entities\\Account.cs": {
+      "WebProject.Entities.Account": {
+        "System.String WebProject.Entities.Account::get_Id()": {
+          "Lines": {
+            "10": 16
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Entities.Account::get_Name()": {
+          "Lines": {
+            "11": 14
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Entities.Account::get_Email()": {
+          "Lines": {
+            "13": 14
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Entities.Account::get_PasswordHash()": {
+          "Lines": {
+            "15": 16
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> WebProject.Entities.Account::get_VerifiedAt()": {
+          "Lines": {
+            "16": 14
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Entities.Account::get_Token()": {
+          "Lines": {
+            "17": 14
+          },
+          "Branches": []
+        },
+        "System.DateTime WebProject.Entities.Account::get_DateCreation()": {
+          "Lines": {
+            "18": 12
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Entities.Account::get_Role()": {
+          "Lines": {
+            "19": 20
+          },
+          "Branches": []
+        },
+        "System.Byte[] WebProject.Entities.Account::get_AvatarImage()": {
+          "Lines": {
+            "22": 13
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\Entities\\Album.cs": {
+      "WebProject.Entities.Album": {
+        "System.String WebProject.Entities.Album::get_Id()": {
+          "Lines": {
+            "9": 106
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Entities.Album::get_Title()": {
+          "Lines": {
+            "10": 106
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Entities.Album::get_ArtistId()": {
+          "Lines": {
+            "12": 135
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<System.String> WebProject.Entities.Album::get_MusicInAlbum()": {
+          "Lines": {
+            "13": 93
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Entities.Album::get_AlbCoverUrl()": {
+          "Lines": {
+            "14": 114
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> WebProject.Entities.Album::get_CountOfMusicInAlbum()": {
+          "Lines": {
+            "15": 106
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\Entities\\Artist.cs": {
+      "WebProject.Entities.Artist": {
+        "System.String WebProject.Entities.Artist::get_Id()": {
+          "Lines": {
+            "9": 180
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Entities.Artist::get_Name()": {
+          "Lines": {
+            "10": 172
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Entities.Artist::get_AvatarUrl()": {
+          "Lines": {
+            "11": 180
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Entities.Artist::get_ArtistBannerUrl()": {
+          "Lines": {
+            "12": 180
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Entities.Artist::get_ArtistLogo()": {
+          "Lines": {
+            "13": 180
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\Entities\\Music.cs": {
+      "WebProject.Entities.Music": {
+        "System.String WebProject.Entities.Music::get_Id()": {
+          "Lines": {
+            "9": 62
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Entities.Music::get_Title()": {
+          "Lines": {
+            "11": 62
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Entities.Music::get_ArtistId()": {
+          "Lines": {
+            "13": 93
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Entities.Music::get_AlbumId()": {
+          "Lines": {
+            "17": 93
+          },
+          "Branches": []
+        },
+        "System.Int32 WebProject.Entities.Music::get_Year()": {
+          "Lines": {
+            "18": 62
+          },
+          "Branches": []
+        },
+        "System.String[] WebProject.Entities.Music::get_Genre()": {
+          "Lines": {
+            "19": 62
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Entities.Music::get_CoverUrl()": {
+          "Lines": {
+            "21": 62
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Entities.Music::get_FileUrl()": {
+          "Lines": {
+            "23": 62
+          },
+          "Branches": []
+        },
+        "System.DateTime WebProject.Entities.Music::get_DateCreation()": {
+          "Lines": {
+            "24": 62
+          },
+          "Branches": []
+        },
+        "System.Int32 WebProject.Entities.Music::get_CountOfListening()": {
+          "Lines": {
+            "26": 61
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\Entities\\Playlist.cs": {
+      "WebProject.Entities.Playlist": {
+        "System.String WebProject.Entities.Playlist::get_Id()": {
+          "Lines": {
+            "10": 3
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Entities.Playlist::get_AccountId()": {
+          "Lines": {
+            "11": 3
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Entities.Playlist::get_Name()": {
+          "Lines": {
+            "12": 6
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<System.String> WebProject.Entities.Playlist::get_MusicId()": {
+          "Lines": {
+            "15": 9
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\DTO's\\AccountInfoDTO.cs": {
+      "WebProject.DTO_s.AccountInfoDTO": {
+        "System.String WebProject.DTO_s.AccountInfoDTO::get_Name()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.AccountInfoDTO::get_Email()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\DTO's\\AccountLoginDTO.cs": {
+      "WebProject.DTO_s.AccountLoginDTO": {
+        "System.String WebProject.DTO_s.AccountLoginDTO::get_Email()": {
+          "Lines": {
+            "5": 12
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.AccountLoginDTO::get_Password()": {
+          "Lines": {
+            "6": 8
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\DTO's\\AccountRegDTO.cs": {
+      "WebProject.DTO_s.AccountRegDTO": {
+        "System.String WebProject.DTO_s.AccountRegDTO::get_Name()": {
+          "Lines": {
+            "5": 8
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.AccountRegDTO::get_Email()": {
+          "Lines": {
+            "6": 8
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.AccountRegDTO::get_Password()": {
+          "Lines": {
+            "7": 6
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Http.IFormFile WebProject.DTO_s.AccountRegDTO::get_AvatarFile()": {
+          "Lines": {
+            "8": 11
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\DTO's\\AlbumArtistDTO.cs": {
+      "WebProject.DTO_s.AlbumArtistDTO": {
+        "System.String WebProject.DTO_s.AlbumArtistDTO::get_Title()": {
+          "Lines": {
+            "7": 2
+          },
+          "Branches": []
+        },
+        "WebProject.Entities.Artist WebProject.DTO_s.AlbumArtistDTO::get_Artist()": {
+          "Lines": {
+            "8": 2
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> WebProject.DTO_s.AlbumArtistDTO::get_CountOfMusicInAlbum()": {
+          "Lines": {
+            "9": 2
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.AlbumArtistDTO::get_AlbCoverUrl()": {
+          "Lines": {
+            "10": 2
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<WebProject.DTO_s.MusicArtistDTO> WebProject.DTO_s.AlbumArtistDTO::get_MusicInAlbum()": {
+          "Lines": {
+            "11": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\DTO's\\AlbumDTO.cs": {
+      "WebProject.DTO_s.AlbumDTO": {
+        "System.String WebProject.DTO_s.AlbumDTO::get_Title()": {
+          "Lines": {
+            "7": 4
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.AlbumDTO::get_ArtistId()": {
+          "Lines": {
+            "8": 4
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<System.String> WebProject.DTO_s.AlbumDTO::get_MusicInAlbum()": {
+          "Lines": {
+            "9": 4
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.AlbumDTO::get_AlbCoverUrl()": {
+          "Lines": {
+            "10": 4
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> WebProject.DTO_s.AlbumDTO::get_CountOfMusicInAlbum()": {
+          "Lines": {
+            "11": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\DTO's\\AlbumWithMusicDTO.cs": {
+      "WebProject.DTO_s.AlbumWithMusicDTO": {
+        "System.String WebProject.DTO_s.AlbumWithMusicDTO::get_Id()": {
+          "Lines": {
+            "5": 6
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.AlbumWithMusicDTO::get_Title()": {
+          "Lines": {
+            "6": 6
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.AlbumWithMusicDTO::get_AlbCoverUrl()": {
+          "Lines": {
+            "7": 6
+          },
+          "Branches": []
+        },
+        "System.Int32 WebProject.DTO_s.AlbumWithMusicDTO::get_CountOfMusicInAlbum()": {
+          "Lines": {
+            "8": 6
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<WebProject.DTO_s.MusicArtistDTO> WebProject.DTO_s.AlbumWithMusicDTO::get_Music()": {
+          "Lines": {
+            "10": 10
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\DTO's\\AlbumWithTracksDTO.cs": {
+      "WebProject.DTO_s.AlbumWithTracksDTO": {
+        "System.String WebProject.DTO_s.AlbumWithTracksDTO::get_Id()": {
+          "Lines": {
+            "7": 20
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.AlbumWithTracksDTO::get_Title()": {
+          "Lines": {
+            "8": 20
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.AlbumWithTracksDTO::get_AlbCoverUrl()": {
+          "Lines": {
+            "9": 20
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> WebProject.DTO_s.AlbumWithTracksDTO::get_CountOfMusicInAlbum()": {
+          "Lines": {
+            "10": 20
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<System.String> WebProject.DTO_s.AlbumWithTracksDTO::get_MusicInAlbum()": {
+          "Lines": {
+            "11": 20
+          },
+          "Branches": []
+        },
+        "WebProject.Entities.Artist WebProject.DTO_s.AlbumWithTracksDTO::get_Artist()": {
+          "Lines": {
+            "12": 20
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\DTO's\\ArtistDTO.cs": {
+      "WebProject.DTO_s.ArtistDTO": {
+        "System.String WebProject.DTO_s.ArtistDTO::get_Name()": {
+          "Lines": {
+            "6": 8
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.ArtistDTO::get_AvatarUrl()": {
+          "Lines": {
+            "7": 8
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.ArtistDTO::get_ArtistBannerUrl()": {
+          "Lines": {
+            "8": 8
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.ArtistDTO::get_ArtistLogo()": {
+          "Lines": {
+            "9": 8
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\DTO's\\ArtistWithAlbumsDTO.cs": {
+      "WebProject.DTO_s.ArtistWithAlbumsDTO": {
+        "System.String WebProject.DTO_s.ArtistWithAlbumsDTO::get_Id()": {
+          "Lines": {
+            "6": 3
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.ArtistWithAlbumsDTO::get_Name()": {
+          "Lines": {
+            "7": 2
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.ArtistWithAlbumsDTO::get_AvatarUrl()": {
+          "Lines": {
+            "8": 2
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.ArtistWithAlbumsDTO::get_ArtistBannerUrl()": {
+          "Lines": {
+            "9": 2
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.ArtistWithAlbumsDTO::get_ArtistLogo()": {
+          "Lines": {
+            "10": 2
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<WebProject.DTO_s.AlbumWithMusicDTO> WebProject.DTO_s.ArtistWithAlbumsDTO::get_Albums()": {
+          "Lines": {
+            "11": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\DTO's\\MusicAlbumArtistDTO.cs": {
+      "WebProject.DTO_s.MusicAlbumArtistDTO": {
+        "System.String WebProject.DTO_s.MusicAlbumArtistDTO::get_Id()": {
+          "Lines": {
+            "7": 67
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.MusicAlbumArtistDTO::get_Title()": {
+          "Lines": {
+            "8": 103
+          },
+          "Branches": []
+        },
+        "WebProject.Entities.Artist WebProject.DTO_s.MusicAlbumArtistDTO::get_Artist()": {
+          "Lines": {
+            "9": 73
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.MusicAlbumArtistDTO::get_AlbCoverUrl()": {
+          "Lines": {
+            "10": 67
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> WebProject.DTO_s.MusicAlbumArtistDTO::get_CountOfMusicInAlbum()": {
+          "Lines": {
+            "11": 67
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\DTO's\\MusicArtistDTO.cs": {
+      "WebProject.DTO_s.MusicArtistDTO": {
+        "System.String WebProject.DTO_s.MusicArtistDTO::get_Id()": {
+          "Lines": {
+            "7": 67
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.MusicArtistDTO::get_Title()": {
+          "Lines": {
+            "8": 103
+          },
+          "Branches": []
+        },
+        "WebProject.Entities.Artist WebProject.DTO_s.MusicArtistDTO::get_Artist()": {
+          "Lines": {
+            "9": 82
+          },
+          "Branches": []
+        },
+        "WebProject.DTO_s.MusicAlbumArtistDTO WebProject.DTO_s.MusicArtistDTO::get_Album()": {
+          "Lines": {
+            "10": 73
+          },
+          "Branches": []
+        },
+        "System.Int32 WebProject.DTO_s.MusicArtistDTO::get_Year()": {
+          "Lines": {
+            "11": 67
+          },
+          "Branches": []
+        },
+        "System.String[] WebProject.DTO_s.MusicArtistDTO::get_Genre()": {
+          "Lines": {
+            "12": 108
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.MusicArtistDTO::get_CoverUrl()": {
+          "Lines": {
+            "13": 103
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.MusicArtistDTO::get_FileUrl()": {
+          "Lines": {
+            "14": 103
+          },
+          "Branches": []
+        },
+        "System.DateTime WebProject.DTO_s.MusicArtistDTO::get_DateCreation()": {
+          "Lines": {
+            "15": 67
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\DTO's\\MusicInpDTO.cs": {
+      "WebProject.DTO_s.MusicInpDTO": {
+        "System.String WebProject.DTO_s.MusicInpDTO::get_Title()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.MusicInpDTO::get_ArtistId()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.MusicInpDTO::get_AlbumId()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 WebProject.DTO_s.MusicInpDTO::get_Year()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String[] WebProject.DTO_s.MusicInpDTO::get_Genre()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.MusicInpDTO::get_CoverUrl()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.MusicInpDTO::get_FileUrl()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 WebProject.DTO_s.MusicInpDTO::get_CountOfListening()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\DTO's\\PlaylistDTO.cs": {
+      "WebProject.DTO_s.PlaylistDTO": {
+        "System.String WebProject.DTO_s.PlaylistDTO::get_AccountId()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.PlaylistDTO::get_Name()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<System.String> WebProject.DTO_s.PlaylistDTO::get_MusicId()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\DTO's\\PlaylistWithMusicsAndAccountsDTO.cs": {
+      "WebProject.DTO_s.PlaylistWithMusicsAndAccountsDTO": {
+        "System.String WebProject.DTO_s.PlaylistWithMusicsAndAccountsDTO::get_Id()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.PlaylistWithMusicsAndAccountsDTO::get_AccountId()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "WebProject.DTO_s.AccountInfoDTO WebProject.DTO_s.PlaylistWithMusicsAndAccountsDTO::get_Account()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.PlaylistWithMusicsAndAccountsDTO::get_Name()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<WebProject.Entities.Music> WebProject.DTO_s.PlaylistWithMusicsAndAccountsDTO::get_Musics()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\DTO's\\UpdateAccountDTO.cs": {
+      "WebProject.DTO_s.UpdateAccountDTO": {
+        "System.String WebProject.DTO_s.UpdateAccountDTO::get_Name()": {
+          "Lines": {
+            "5": 10
+          },
+          "Branches": []
+        },
+        "System.String WebProject.DTO_s.UpdateAccountDTO::get_Password()": {
+          "Lines": {
+            "6": 6
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\Datas\\MongoDbService.cs": {
+      "WebProject.Datas.MongoDbService": {
+        "MongoDB.Driver.IMongoDatabase WebProject.Datas.MongoDbService::get_Database()": {
+          "Lines": {
+            "22": 672
+          },
+          "Branches": []
+        },
+        "System.Void WebProject.Datas.MongoDbService::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "12": 26,
+            "13": 26,
+            "14": 26,
+            "16": 26,
+            "17": 26,
+            "18": 26,
+            "19": 26,
+            "20": 26
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\Controllers\\AccountController.cs": {
+      "WebProject.Controllers.AccountController": {
+        "System.String WebProject.Controllers.AccountController::GenerateJwtToken(WebProject.Entities.Account)": {
+          "Lines": {
+            "113": 2,
+            "114": 2,
+            "115": 2,
+            "117": 2,
+            "118": 2,
+            "119": 2,
+            "120": 2,
+            "121": 2,
+            "123": 2,
+            "124": 2,
+            "125": 2,
+            "126": 2,
+            "127": 2,
+            "128": 2,
+            "130": 2,
+            "131": 2
+          },
+          "Branches": []
+        },
+        "System.Void WebProject.Controllers.AccountController::.ctor(WebProject.Services.IAccountService,WebProject.Services.IEmailService,WebProject.Services.IPasswordService,WebProject.Repositories.IAccountRepository,Microsoft.Extensions.Configuration.IConfiguration)": {
+          "Lines": {
+            "24": 11,
+            "25": 11,
+            "26": 11,
+            "27": 11,
+            "28": 11,
+            "29": 11,
+            "30": 11,
+            "32": 11
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Controllers.AccountController/<>c": {
+        "System.Boolean WebProject.Controllers.AccountController/<>c::<UpdateDatas>b__11_0(System.Security.Claims.Claim)": {
+          "Lines": {
+            "139": 4
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Controllers.AccountController/<CreateAccount>d__8": {
+        "System.Void WebProject.Controllers.AccountController/<CreateAccount>d__8::MoveNext()": {
+          "Lines": {
+            "68": 2,
+            "70": 2,
+            "71": 2,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "76": 2,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "83": 2,
+            "85": 2,
+            "86": 1,
+            "87": 1,
+            "89": 1,
+            "90": 1,
+            "92": 1,
+            "93": 1,
+            "94": 1,
+            "96": 2
+          },
+          "Branches": [
+            {
+              "Line": 71,
+              "Offset": 191,
+              "EndOffset": 193,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 191,
+              "EndOffset": 232,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 76,
+              "Offset": 245,
+              "EndOffset": 247,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 76,
+              "Offset": 245,
+              "EndOffset": 286,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            }
+          ]
+        }
+      },
+      "WebProject.Controllers.AccountController/<GetAccount>d__6": {
+        "System.Void WebProject.Controllers.AccountController/<GetAccount>d__6::MoveNext()": {
+          "Lines": {
+            "36": 2,
+            "38": 2,
+            "39": 2,
+            "40": 1,
+            "42": 1,
+            "43": 1,
+            "44": 1,
+            "46": 2
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Controllers.AccountController/<GetAvatar>d__7": {
+        "System.Void WebProject.Controllers.AccountController/<GetAvatar>d__7::MoveNext()": {
+          "Lines": {
+            "50": 2,
+            "51": 2,
+            "52": 1,
+            "53": 0,
+            "55": 1,
+            "56": 0,
+            "57": 0,
+            "60": 1,
+            "62": 1,
+            "63": 1
+          },
+          "Branches": [
+            {
+              "Line": 52,
+              "Offset": 164,
+              "EndOffset": 166,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 52,
+              "Offset": 164,
+              "EndOffset": 188,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 55,
+              "Offset": 199,
+              "EndOffset": 201,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 55,
+              "Offset": 199,
+              "EndOffset": 218,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 223,
+              "EndOffset": 225,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 223,
+              "EndOffset": 245,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "WebProject.Controllers.AccountController/<Login>d__9": {
+        "System.Void WebProject.Controllers.AccountController/<Login>d__9::MoveNext()": {
+          "Lines": {
+            "99": 3,
+            "101": 3,
+            "102": 3,
+            "104": 2,
+            "105": 2,
+            "107": 1,
+            "108": 1,
+            "109": 1,
+            "111": 3
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Controllers.AccountController/<UpdateDatas>d__11": {
+        "System.Void WebProject.Controllers.AccountController/<UpdateDatas>d__11::MoveNext()": {
+          "Lines": {
+            "136": 2,
+            "138": 2,
+            "140": 2,
+            "141": 0,
+            "143": 0,
+            "147": 2,
+            "148": 2,
+            "149": 0,
+            "152": 2,
+            "153": 2,
+            "154": 0,
+            "157": 2,
+            "158": 2,
+            "160": 2,
+            "161": 0,
+            "162": 0,
+            "165": 2,
+            "167": 2,
+            "168": 2,
+            "169": 2,
+            "171": 2,
+            "172": 2,
+            "173": 0,
+            "175": 2,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "181": 2
+          },
+          "Branches": [
+            {
+              "Line": 139,
+              "Offset": 107,
+              "EndOffset": 109,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 139,
+              "Offset": 107,
+              "EndOffset": 113,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 140,
+              "Offset": 136,
+              "EndOffset": 138,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 140,
+              "Offset": 136,
+              "EndOffset": 166,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 148,
+              "Offset": 316,
+              "EndOffset": 318,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 148,
+              "Offset": 316,
+              "EndOffset": 345,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            },
+            {
+              "Line": 153,
+              "Offset": 503,
+              "EndOffset": 505,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 153,
+              "Offset": 503,
+              "EndOffset": 532,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            },
+            {
+              "Line": 160,
+              "Offset": 617,
+              "EndOffset": 619,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 160,
+              "Offset": 617,
+              "EndOffset": 647,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 2
+            },
+            {
+              "Line": 172,
+              "Offset": 836,
+              "EndOffset": 838,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 172,
+              "Offset": 836,
+              "EndOffset": 862,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 2
+            }
+          ]
+        }
+      }
+    },
+    "D:\\MainWebProject\\Controllers\\AlbumController.cs": {
+      "WebProject.Controllers.AlbumController": {
+        "System.Void WebProject.Controllers.AlbumController::.ctor(WebProject.Services.IAlbumService,WebProject.Repositories.IAlbumRepository)": {
+          "Lines": {
+            "16": 8,
+            "17": 8,
+            "18": 8,
+            "19": 8,
+            "20": 8
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Controllers.AlbumController/<CreateAlbum>d__3": {
+        "System.Void WebProject.Controllers.AlbumController/<CreateAlbum>d__3::MoveNext()": {
+          "Lines": {
+            "24": 1,
+            "25": 1,
+            "26": 0,
+            "27": 0,
+            "31": 1,
+            "32": 1,
+            "33": 1,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 1
+          },
+          "Branches": [
+            {
+              "Line": 25,
+              "Offset": 26,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 26,
+              "EndOffset": 56,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "WebProject.Controllers.AlbumController/<GetAlbumCoverById>d__5": {
+        "System.Void WebProject.Controllers.AlbumController/<GetAlbumCoverById>d__5::MoveNext()": {
+          "Lines": {
+            "55": 2,
+            "57": 2,
+            "58": 2,
+            "59": 2,
+            "60": 0,
+            "61": 0,
+            "65": 2,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "78": 0,
+            "79": 0,
+            "84": 2,
+            "86": 2,
+            "87": 1,
+            "88": 1,
+            "91": 1,
+            "92": 1,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "98": 2
+          },
+          "Branches": [
+            {
+              "Line": 55,
+              "Offset": 26,
+              "EndOffset": 37,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 59,
+              "Offset": 180,
+              "EndOffset": 182,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 59,
+              "Offset": 180,
+              "EndOffset": 200,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 205,
+              "EndOffset": 207,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 59,
+              "Offset": 205,
+              "EndOffset": 235,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            },
+            {
+              "Line": 65,
+              "Offset": 261,
+              "EndOffset": 266,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 55,
+              "Offset": 26,
+              "EndOffset": 278,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 453,
+              "EndOffset": 458,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 74,
+              "Offset": 615,
+              "EndOffset": 617,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 74,
+              "Offset": 615,
+              "EndOffset": 621,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 74,
+              "Offset": 627,
+              "EndOffset": 629,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 74,
+              "Offset": 627,
+              "EndOffset": 635,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 453,
+              "EndOffset": 669,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 65,
+              "Offset": 261,
+              "EndOffset": 766,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            },
+            {
+              "Line": 86,
+              "Offset": 847,
+              "EndOffset": 849,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 1
+            },
+            {
+              "Line": 86,
+              "Offset": 847,
+              "EndOffset": 874,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "WebProject.Controllers.AlbumController/<GetPlaylist>d__4": {
+        "System.Void WebProject.Controllers.AlbumController/<GetPlaylist>d__4::MoveNext()": {
+          "Lines": {
+            "42": 2,
+            "44": 2,
+            "45": 2,
+            "46": 2,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 2
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Controllers.AlbumController/<GetRandomMusic>d__6": {
+        "System.Void WebProject.Controllers.AlbumController/<GetRandomMusic>d__6::MoveNext()": {
+          "Lines": {
+            "103": 1,
+            "104": 1,
+            "106": 1,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "111": 1,
+            "112": 1,
+            "113": 1
+          },
+          "Branches": [
+            {
+              "Line": 106,
+              "Offset": 151,
+              "EndOffset": 153,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 106,
+              "Offset": 151,
+              "EndOffset": 169,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 106,
+              "Offset": 174,
+              "EndOffset": 176,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 106,
+              "Offset": 174,
+              "EndOffset": 212,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "WebProject.Controllers.AlbumController/<GetRandomMusicsID>d__7": {
+        "System.Void WebProject.Controllers.AlbumController/<GetRandomMusicsID>d__7::MoveNext()": {
+          "Lines": {
+            "116": 1,
+            "117": 1,
+            "119": 1,
+            "120": 0,
+            "121": 0,
+            "124": 1,
+            "125": 1
+          },
+          "Branches": [
+            {
+              "Line": 119,
+              "Offset": 151,
+              "EndOffset": 153,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 119,
+              "Offset": 151,
+              "EndOffset": 169,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 119,
+              "Offset": 174,
+              "EndOffset": 176,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 119,
+              "Offset": 174,
+              "EndOffset": 201,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "D:\\MainWebProject\\Controllers\\ArtistController.cs": {
+      "WebProject.Controllers.ArtistController": {
+        "System.Void WebProject.Controllers.ArtistController::.ctor(WebProject.Services.IArtistService,WebProject.Repositories.IArtistRepository,WebProject.Repositories.IMusicRepository,WebProject.Services.IMusicService)": {
+          "Lines": {
+            "20": 16,
+            "21": 16,
+            "22": 16,
+            "23": 16,
+            "24": 16,
+            "25": 16,
+            "26": 16
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Controllers.ArtistController/<CreatePlaylist>d__5": {
+        "System.Void WebProject.Controllers.ArtistController/<CreatePlaylist>d__5::MoveNext()": {
+          "Lines": {
+            "30": 2,
+            "31": 2,
+            "32": 0,
+            "33": 0,
+            "37": 2,
+            "38": 2,
+            "39": 2,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "45": 2
+          },
+          "Branches": [
+            {
+              "Line": 31,
+              "Offset": 26,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 26,
+              "EndOffset": 56,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 4
+            }
+          ]
+        }
+      },
+      "WebProject.Controllers.ArtistController/<DeleteArtistAsync>d__13": {
+        "System.Void WebProject.Controllers.ArtistController/<DeleteArtistAsync>d__13::MoveNext()": {
+          "Lines": {
+            "256": 2,
+            "257": 2,
+            "259": 2,
+            "260": 1,
+            "261": 1,
+            "264": 1,
+            "265": 2
+          },
+          "Branches": [
+            {
+              "Line": 259,
+              "Offset": 157,
+              "EndOffset": 159,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 259,
+              "Offset": 157,
+              "EndOffset": 200,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "WebProject.Controllers.ArtistController/<GetAlbumsByArtistId>d__6": {
+        "System.Void WebProject.Controllers.ArtistController/<GetAlbumsByArtistId>d__6::MoveNext()": {
+          "Lines": {
+            "48": 2,
+            "50": 2,
+            "51": 2,
+            "53": 2,
+            "54": 1,
+            "55": 1,
+            "58": 1,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "64": 2
+          },
+          "Branches": [
+            {
+              "Line": 53,
+              "Offset": 166,
+              "EndOffset": 168,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 53,
+              "Offset": 166,
+              "EndOffset": 186,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 53,
+              "Offset": 191,
+              "EndOffset": 193,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 53,
+              "Offset": 191,
+              "EndOffset": 218,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "WebProject.Controllers.ArtistController/<GetArtistAvatarById>d__7": {
+        "System.Void WebProject.Controllers.ArtistController/<GetArtistAvatarById>d__7::MoveNext()": {
+          "Lines": {
+            "67": 2,
+            "69": 2,
+            "70": 2,
+            "71": 2,
+            "72": 0,
+            "73": 0,
+            "77": 2,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "90": 0,
+            "91": 0,
+            "97": 2,
+            "99": 2,
+            "100": 1,
+            "101": 1,
+            "104": 1,
+            "105": 1,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "111": 2
+          },
+          "Branches": [
+            {
+              "Line": 67,
+              "Offset": 26,
+              "EndOffset": 37,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 71,
+              "Offset": 180,
+              "EndOffset": 182,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 71,
+              "Offset": 180,
+              "EndOffset": 200,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 205,
+              "EndOffset": 207,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 71,
+              "Offset": 205,
+              "EndOffset": 235,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            },
+            {
+              "Line": 77,
+              "Offset": 261,
+              "EndOffset": 266,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 26,
+              "EndOffset": 278,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 83,
+              "Offset": 453,
+              "EndOffset": 458,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 86,
+              "Offset": 615,
+              "EndOffset": 617,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 86,
+              "Offset": 615,
+              "EndOffset": 621,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 86,
+              "Offset": 627,
+              "EndOffset": 629,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 86,
+              "Offset": 627,
+              "EndOffset": 635,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 83,
+              "Offset": 453,
+              "EndOffset": 669,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 77,
+              "Offset": 261,
+              "EndOffset": 766,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            },
+            {
+              "Line": 99,
+              "Offset": 847,
+              "EndOffset": 849,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 1
+            },
+            {
+              "Line": 99,
+              "Offset": 847,
+              "EndOffset": 874,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "WebProject.Controllers.ArtistController/<GetArtistBannerById>d__8": {
+        "System.Void WebProject.Controllers.ArtistController/<GetArtistBannerById>d__8::MoveNext()": {
+          "Lines": {
+            "115": 2,
+            "117": 2,
+            "118": 2,
+            "119": 2,
+            "120": 0,
+            "121": 0,
+            "124": 2,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "137": 0,
+            "138": 0,
+            "143": 2,
+            "144": 2,
+            "146": 2,
+            "147": 1,
+            "148": 1,
+            "151": 1,
+            "152": 1,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "159": 2
+          },
+          "Branches": [
+            {
+              "Line": 115,
+              "Offset": 26,
+              "EndOffset": 37,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 119,
+              "Offset": 180,
+              "EndOffset": 182,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 119,
+              "Offset": 180,
+              "EndOffset": 200,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 119,
+              "Offset": 205,
+              "EndOffset": 207,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 119,
+              "Offset": 205,
+              "EndOffset": 235,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            },
+            {
+              "Line": 124,
+              "Offset": 261,
+              "EndOffset": 266,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 115,
+              "Offset": 26,
+              "EndOffset": 278,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 130,
+              "Offset": 453,
+              "EndOffset": 458,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 133,
+              "Offset": 615,
+              "EndOffset": 617,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 133,
+              "Offset": 615,
+              "EndOffset": 621,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 133,
+              "Offset": 627,
+              "EndOffset": 629,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 133,
+              "Offset": 627,
+              "EndOffset": 635,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 130,
+              "Offset": 453,
+              "EndOffset": 669,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 261,
+              "EndOffset": 766,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            },
+            {
+              "Line": 146,
+              "Offset": 848,
+              "EndOffset": 850,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 1
+            },
+            {
+              "Line": 146,
+              "Offset": 848,
+              "EndOffset": 875,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "WebProject.Controllers.ArtistController/<GetArtistLogoById>d__9": {
+        "System.Void WebProject.Controllers.ArtistController/<GetArtistLogoById>d__9::MoveNext()": {
+          "Lines": {
+            "162": 2,
+            "164": 2,
+            "165": 2,
+            "166": 2,
+            "167": 0,
+            "168": 0,
+            "171": 2,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "184": 0,
+            "185": 0,
+            "190": 2,
+            "191": 2,
+            "193": 2,
+            "194": 1,
+            "195": 1,
+            "198": 1,
+            "199": 1,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "206": 2
+          },
+          "Branches": [
+            {
+              "Line": 162,
+              "Offset": 26,
+              "EndOffset": 37,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 166,
+              "Offset": 180,
+              "EndOffset": 182,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 166,
+              "Offset": 180,
+              "EndOffset": 200,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 166,
+              "Offset": 205,
+              "EndOffset": 207,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 166,
+              "Offset": 205,
+              "EndOffset": 235,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            },
+            {
+              "Line": 171,
+              "Offset": 261,
+              "EndOffset": 266,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 162,
+              "Offset": 26,
+              "EndOffset": 278,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 177,
+              "Offset": 453,
+              "EndOffset": 458,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 180,
+              "Offset": 615,
+              "EndOffset": 617,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 180,
+              "Offset": 615,
+              "EndOffset": 621,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 180,
+              "Offset": 627,
+              "EndOffset": 629,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 180,
+              "Offset": 627,
+              "EndOffset": 635,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 177,
+              "Offset": 453,
+              "EndOffset": 669,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 171,
+              "Offset": 261,
+              "EndOffset": 766,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            },
+            {
+              "Line": 193,
+              "Offset": 848,
+              "EndOffset": 850,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 1
+            },
+            {
+              "Line": 193,
+              "Offset": 848,
+              "EndOffset": 875,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "WebProject.Controllers.ArtistController/<GetRandomMusic>d__11": {
+        "System.Void WebProject.Controllers.ArtistController/<GetRandomMusic>d__11::MoveNext()": {
+          "Lines": {
+            "230": 1,
+            "231": 1,
+            "233": 1,
+            "234": 0,
+            "235": 0,
+            "236": 0,
+            "238": 1,
+            "239": 1,
+            "240": 1
+          },
+          "Branches": [
+            {
+              "Line": 233,
+              "Offset": 151,
+              "EndOffset": 153,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 233,
+              "Offset": 151,
+              "EndOffset": 169,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 233,
+              "Offset": 174,
+              "EndOffset": 176,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 233,
+              "Offset": 174,
+              "EndOffset": 212,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "WebProject.Controllers.ArtistController/<GetRandomMusicByArtistId>d__10": {
+        "System.Void WebProject.Controllers.ArtistController/<GetRandomMusicByArtistId>d__10::MoveNext()": {
+          "Lines": {
+            "209": 1,
+            "211": 1,
+            "212": 1,
+            "214": 1,
+            "215": 0,
+            "216": 0,
+            "219": 1,
+            "221": 0,
+            "222": 0,
+            "224": 0,
+            "227": 1
+          },
+          "Branches": [
+            {
+              "Line": 214,
+              "Offset": 166,
+              "EndOffset": 168,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 214,
+              "Offset": 166,
+              "EndOffset": 184,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 214,
+              "Offset": 189,
+              "EndOffset": 191,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 214,
+              "Offset": 189,
+              "EndOffset": 216,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "WebProject.Controllers.ArtistController/<GetRandomMusicsID>d__12": {
+        "System.Void WebProject.Controllers.ArtistController/<GetRandomMusicsID>d__12::MoveNext()": {
+          "Lines": {
+            "243": 1,
+            "244": 1,
+            "246": 1,
+            "247": 0,
+            "248": 0,
+            "251": 1,
+            "252": 1
+          },
+          "Branches": [
+            {
+              "Line": 246,
+              "Offset": 151,
+              "EndOffset": 153,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 246,
+              "Offset": 151,
+              "EndOffset": 169,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 246,
+              "Offset": 174,
+              "EndOffset": 176,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 246,
+              "Offset": 174,
+              "EndOffset": 201,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "D:\\MainWebProject\\Controllers\\EmailController.cs": {
+      "WebProject.Controllers.EmailController": {
+        "System.Void WebProject.Controllers.EmailController::.ctor(WebProject.Services.IEmailService,WebProject.Services.IAccountService)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Controllers.EmailController/<SendEmail>d__3": {
+        "System.Void WebProject.Controllers.EmailController/<SendEmail>d__3::MoveNext()": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "28": 0,
+            "30": 0,
+            "31": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": [
+            {
+              "Line": 22,
+              "Offset": 24,
+              "EndOffset": 26,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 42,
+              "EndOffset": 44,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 60,
+              "EndOffset": 62,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 24,
+              "EndOffset": 80,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 42,
+              "EndOffset": 80,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 60,
+              "EndOffset": 80,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 83,
+              "EndOffset": 85,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 83,
+              "EndOffset": 113,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 253,
+              "EndOffset": 255,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 253,
+              "EndOffset": 279,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "WebProject.Controllers.EmailController/<SendEmailToAll>d__4": {
+        "System.Void WebProject.Controllers.EmailController/<SendEmailToAll>d__4::MoveNext()": {
+          "Lines": {
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "64": 0,
+            "66": 0,
+            "67": 0
+          },
+          "Branches": [
+            {
+              "Line": 39,
+              "Offset": 35,
+              "EndOffset": 37,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 53,
+              "EndOffset": 55,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 35,
+              "EndOffset": 73,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 53,
+              "EndOffset": 73,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 76,
+              "EndOffset": 78,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 76,
+              "EndOffset": 106,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 243,
+              "EndOffset": 245,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 243,
+              "EndOffset": 261,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 266,
+              "EndOffset": 268,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 266,
+              "EndOffset": 296,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 619,
+              "EndOffset": 331,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 555,
+              "EndOffset": 557,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 60,
+              "Offset": 555,
+              "EndOffset": 593,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 619,
+              "EndOffset": 624,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\MainWebProject\\Controllers\\MusicController.cs": {
+      "WebProject.Controllers.MusicController": {
+        "System.Void WebProject.Controllers.MusicController::.ctor(WebProject.Services.IIMusicService,WebProject.Repositories.IMusicRepository,WebProject.Services.IMusicService,WebProject.Services.IAlbumService)": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Controllers.MusicController/<CreateMusic>d__13": {
+        "System.Void WebProject.Controllers.MusicController/<CreateMusic>d__13::MoveNext()": {
+          "Lines": {
+            "245": 0,
+            "246": 0,
+            "247": 0,
+            "248": 0,
+            "252": 0,
+            "253": 0,
+            "257": 0,
+            "259": 0,
+            "260": 0,
+            "261": 0,
+            "263": 0
+          },
+          "Branches": [
+            {
+              "Line": 246,
+              "Offset": 26,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 246,
+              "Offset": 26,
+              "EndOffset": 56,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "WebProject.Controllers.MusicController/<DeleteMusicAsync>d__14": {
+        "System.Void WebProject.Controllers.MusicController/<DeleteMusicAsync>d__14::MoveNext()": {
+          "Lines": {
+            "266": 0,
+            "267": 0,
+            "269": 0,
+            "270": 0,
+            "271": 0,
+            "274": 0,
+            "275": 0
+          },
+          "Branches": [
+            {
+              "Line": 269,
+              "Offset": 157,
+              "EndOffset": 159,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 269,
+              "Offset": 157,
+              "EndOffset": 200,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "WebProject.Controllers.MusicController/<GetMusicCoverById>d__7": {
+        "System.Void WebProject.Controllers.MusicController/<GetMusicCoverById>d__7::MoveNext()": {
+          "Lines": {
+            "106": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "129": 0,
+            "130": 0,
+            "136": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "143": 0,
+            "144": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "150": 0
+          },
+          "Branches": [
+            {
+              "Line": 106,
+              "Offset": 26,
+              "EndOffset": 37,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 110,
+              "Offset": 180,
+              "EndOffset": 182,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 110,
+              "Offset": 180,
+              "EndOffset": 200,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 110,
+              "Offset": 205,
+              "EndOffset": 207,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 110,
+              "Offset": 205,
+              "EndOffset": 235,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 116,
+              "Offset": 261,
+              "EndOffset": 266,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 106,
+              "Offset": 26,
+              "EndOffset": 278,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 122,
+              "Offset": 453,
+              "EndOffset": 458,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 125,
+              "Offset": 615,
+              "EndOffset": 617,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 125,
+              "Offset": 615,
+              "EndOffset": 621,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 125,
+              "Offset": 627,
+              "EndOffset": 629,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 125,
+              "Offset": 627,
+              "EndOffset": 635,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 122,
+              "Offset": 453,
+              "EndOffset": 669,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 116,
+              "Offset": 261,
+              "EndOffset": 766,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 138,
+              "Offset": 847,
+              "EndOffset": 849,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 138,
+              "Offset": 847,
+              "EndOffset": 874,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "WebProject.Controllers.MusicController/<GetMusicFileById>d__8": {
+        "System.Void WebProject.Controllers.MusicController/<GetMusicFileById>d__8::MoveNext()": {
+          "Lines": {
+            "154": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "164": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "171": 0,
+            "172": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "178": 0
+          },
+          "Branches": [
+            {
+              "Line": 158,
+              "Offset": 166,
+              "EndOffset": 168,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 158,
+              "Offset": 166,
+              "EndOffset": 186,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 158,
+              "Offset": 191,
+              "EndOffset": 193,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 158,
+              "Offset": 191,
+              "EndOffset": 221,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 166,
+              "Offset": 302,
+              "EndOffset": 304,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 166,
+              "Offset": 302,
+              "EndOffset": 329,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "WebProject.Controllers.MusicController/<GetMusicsByArtist>d__12": {
+        "System.Void WebProject.Controllers.MusicController/<GetMusicsByArtist>d__12::MoveNext()": {
+          "Lines": {
+            "231": 0,
+            "233": 0,
+            "234": 0,
+            "235": 0,
+            "237": 0,
+            "238": 0,
+            "239": 0,
+            "241": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Controllers.MusicController/<GetMusicsById>d__5": {
+        "System.Void WebProject.Controllers.MusicController/<GetMusicsById>d__5::MoveNext()": {
+          "Lines": {
+            "32": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "44": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Controllers.MusicController/<GetMusictsByTitle>d__6": {
+        "System.Void WebProject.Controllers.MusicController/<GetMusictsByTitle>d__6::MoveNext()": {
+          "Lines": {
+            "48": 0,
+            "50": 0,
+            "51": 0,
+            "53": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "60": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Controllers.MusicController/<GetRandomMusics>d__10": {
+        "System.Void WebProject.Controllers.MusicController/<GetRandomMusics>d__10::MoveNext()": {
+          "Lines": {
+            "203": 0,
+            "204": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "211": 0,
+            "212": 0
+          },
+          "Branches": [
+            {
+              "Line": 206,
+              "Offset": 151,
+              "EndOffset": 153,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 206,
+              "Offset": 151,
+              "EndOffset": 169,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 206,
+              "Offset": 174,
+              "EndOffset": 176,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 206,
+              "Offset": 174,
+              "EndOffset": 201,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "WebProject.Controllers.MusicController/<GetRandomMusicsID>d__11": {
+        "System.Void WebProject.Controllers.MusicController/<GetRandomMusicsID>d__11::MoveNext()": {
+          "Lines": {
+            "217": 0,
+            "218": 0,
+            "220": 0,
+            "221": 0,
+            "222": 0,
+            "225": 0,
+            "226": 0
+          },
+          "Branches": [
+            {
+              "Line": 220,
+              "Offset": 151,
+              "EndOffset": 153,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 220,
+              "Offset": 151,
+              "EndOffset": 169,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 220,
+              "Offset": 174,
+              "EndOffset": 176,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 220,
+              "Offset": 174,
+              "EndOffset": 201,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "WebProject.Controllers.MusicController/<SortMusicByListenings>d__9": {
+        "System.Void WebProject.Controllers.MusicController/<SortMusicByListenings>d__9::MoveNext()": {
+          "Lines": {
+            "182": 0,
+            "184": 0,
+            "186": 0,
+            "188": 0,
+            "190": 0,
+            "191": 0,
+            "193": 0,
+            "195": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\Controllers\\PlaylistController.cs": {
+      "WebProject.Controllers.PlaylistController": {
+        "System.Void WebProject.Controllers.PlaylistController::.ctor(WebProject.Services.IPlaylistService)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Controllers.PlaylistController/<CreatePlaylist>d__2": {
+        "System.Void WebProject.Controllers.PlaylistController/<CreatePlaylist>d__2::MoveNext()": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 26,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 26,
+              "EndOffset": 56,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "WebProject.Controllers.PlaylistController/<DeletePlaylistAsync>d__4": {
+        "System.Void WebProject.Controllers.PlaylistController/<DeletePlaylistAsync>d__4::MoveNext()": {
+          "Lines": {
+            "51": 0,
+            "52": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "59": 0,
+            "60": 0
+          },
+          "Branches": [
+            {
+              "Line": 54,
+              "Offset": 157,
+              "EndOffset": 159,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 54,
+              "Offset": 157,
+              "EndOffset": 200,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "WebProject.Controllers.PlaylistController/<GetPlaylistWithMusics>d__3": {
+        "System.Void WebProject.Controllers.PlaylistController/<GetPlaylistWithMusics>d__3::MoveNext()": {
+          "Lines": {
+            "39": 0,
+            "40": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "47": 0,
+            "48": 0
+          },
+          "Branches": [
+            {
+              "Line": 42,
+              "Offset": 164,
+              "EndOffset": 166,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 164,
+              "EndOffset": 207,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\MainWebProject\\Controllers\\VerificationController.cs": {
+      "WebProject.Controllers.VerificationController": {
+        "System.Void WebProject.Controllers.VerificationController::.ctor(WebProject.Services.IAccountService)": {
+          "Lines": {
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0
+          },
+          "Branches": []
+        }
+      },
+      "WebProject.Controllers.VerificationController/<VerifyEmail>d__2": {
+        "System.Void WebProject.Controllers.VerificationController/<VerifyEmail>d__2::MoveNext()": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "33": 0,
+            "34": 0
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 28,
+              "EndOffset": 30,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 28,
+              "EndOffset": 53,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 196,
+              "EndOffset": 198,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 196,
+              "EndOffset": 218,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "D:\\MainWebProject\\Config\\AppConfig.cs": {
+      "WebProject.Config.AppConfig": {
+        "System.String WebProject.Config.AppConfig::get_ServerVersion()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Config.AppConfig::get_GameVersion()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Config.AppConfig::get_ResourcesVersion()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\Config\\EmailSettings.cs": {
+      "WebProject.Config.EmailSettings": {
+        "System.String WebProject.Config.EmailSettings::get_Host()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 WebProject.Config.EmailSettings::get_Port()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Config.EmailSettings::get_Username()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Config.EmailSettings::get_Password()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Config.EmailSettings::get_FromEmail()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Config.EmailSettings::get_Sender()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "D:\\MainWebProject\\Config\\JwtSettings.cs": {
+      "WebProject.Config.JwtSettings": {
+        "System.String WebProject.Config.JwtSettings::get_SecretKey()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Config.JwtSettings::get_Issuer()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.String WebProject.Config.JwtSettings::get_Audience()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 WebProject.Config.JwtSettings::get_ExpiryInMinutes()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
