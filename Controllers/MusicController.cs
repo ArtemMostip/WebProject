@@ -1,4 +1,7 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using LazyCache;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Memory;
+using WebProject.Caching;
 using WebProject.DTO_s;
 using WebProject.Entities;
 using WebProject.Repositories;
@@ -13,16 +16,16 @@ namespace WebProject.Controllers
 
         //musicalService - основний 
         //musicSerivce - допоміжний для розриву циклу залежностей між AlbumService і MusicService
-IIMusicService _musicService;
+        IIMusicService _musicService;
         IMusicService _musicalService;
         IMusicRepository _musicRepository;
-        IAlbumService _albumService;
-        public MusicController(IIMusicService musicService, IMusicRepository musicRepository, IMusicService musicalService, IAlbumService albumService)
+        ICacheProvider _cacheProvider;
+        public MusicController(IIMusicService musicService, IMusicRepository musicRepository, IMusicService musicalService, ICacheProvider cacheProvider)
         {
             _musicService = musicService;
             _musicRepository = musicRepository;
             _musicalService = musicalService;
-            _albumService = albumService;
+            _cacheProvider = cacheProvider;
         }
 
  
@@ -101,6 +104,7 @@ IIMusicService _musicService;
         return BadRequest(new { Message = ex.Message });
     }
 }*/
+        
         [HttpGet("cover/{id}")]
         public async Task<IActionResult> GetMusicCoverById(string id)
         {
@@ -201,14 +205,27 @@ IIMusicService _musicService;
         [HttpGet("10random-music")]
         public async Task<IActionResult> GetRandomMusics()
         {
-            var musics = await _musicalService.Get10RandomMusicWithArtistAsync();
-
-            if (musics == null || !musics.Any())
+           
+            if(!_cacheProvider.TryGetValue(CacheKeys.RandomMusicKey,out List<MusicArtistDTO> musics ))
             {
-                return NotFound(new { Message = "No music found." });
+                musics = await _musicalService.Get10RandomMusicWithArtistAsync();
+                var cacheEntryOption = new MemoryCacheEntryOptions 
+                { 
+                AbsoluteExpiration = DateTime.Now.AddSeconds(30),
+                SlidingExpiration = TimeSpan.FromSeconds(30),
+           
+                };
+                _cacheProvider.Set(CacheKeys.RandomMusicKey, musics, cacheEntryOption);
             }
-
             return Ok(musics);
+            //var musics = await _musicalService.Get10RandomMusicWithArtistAsync();
+
+            //if (musics == null || !musics.Any())
+            //{
+            //    return NotFound(new { Message = "No music found." });
+            //}
+
+            //return Ok(musics);
         }
 
 
