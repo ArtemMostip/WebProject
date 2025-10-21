@@ -39,10 +39,10 @@ builder.Services.Configure<JsonOptions>(options =>
 builder.Services.Configure<EmailSettings>(options =>
 {
     options.Host = Environment.GetEnvironmentVariable("SMTP_HOST");
-    options.Port = int.Parse(Environment.GetEnvironmentVariable("SMTP_PORT") ?? "587");
+    options.Port = int.Parse(Environment.GetEnvironmentVariable("SMTP_PORT"));
     options.Username = Environment.GetEnvironmentVariable("SMTP_USERNAME");
     options.Password = Environment.GetEnvironmentVariable("SMTP_PASSWORD");
-    options.EnableSsl = bool.Parse(Environment.GetEnvironmentVariable("SMTP_ENABLESSL") ?? "true");
+    options.EnableSsl = bool.Parse(Environment.GetEnvironmentVariable("SMTP_ENABLESSL"));
     options.FromEmail = Environment.GetEnvironmentVariable("SMTP_FROMEMAIL");
     options.Sender = Environment.GetEnvironmentVariable("SMTP_SENDER");
 });
@@ -52,7 +52,7 @@ builder.Services.Configure<JwtSettings>(options =>
     options.SecretKey = Environment.GetEnvironmentVariable("JWT_SECRETKEY");
     options.Issuer = Environment.GetEnvironmentVariable("JWT_ISSUER");
     options.Audience = Environment.GetEnvironmentVariable("JWT_AUDIENCE");
-    options.ExpiryInMinutes = int.Parse(Environment.GetEnvironmentVariable("JWT_EXPIRYINMINUTES") ?? "60");
+    options.ExpiryInMinutes = int.Parse(Environment.GetEnvironmentVariable("JWT_EXPIRYINMINUTES") );
 });
 
 builder.Services.AddCustomServices();
